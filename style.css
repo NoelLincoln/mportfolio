@@ -1,0 +1,83 @@
+@import url("https://fonts.cdnfonts.com/css/poppins");
+
+.container {
+  display: flex;
+  position: absolute;
+  left: 5px;
+  right: 5px;
+  top: 44px;
+  bottom: 5px;
+}
+
+.logo {
+  /* Logo Placeholder */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 12px;
+  position: absolute;
+  width: 100px;
+  height: 40px;
+  left: 12px;
+  top: calc(50% - 40px / 2);
+}
+
+.logo a {
+  width: 76px;
+  height: 20px;
+  text-decoration: none;
+  font-family: "Poppins, sans-serif";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+
+  /* identical to box height, or 111% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* Primary/B400 */
+
+  color: #6070ff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.menu-icons {
+  /* Icons/Icon - Menu */
+
+  width: 24px;
+  height: 24px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.menu-button {
+  /* Normal Button/Tertiary/Enabled */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  right: 24px;
+  top: calc(50% - 40px / 2);
+  border-radius: 8px;
+}
