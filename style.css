@@ -1,83 +1,233 @@
 @import url("https://fonts.cdnfonts.com/css/poppins");
 
-.container {
-  display: flex;
-  position: absolute;
-  left: 5px;
-  right: 5px;
-  top: 44px;
-  bottom: 5px;
+/* media query for mobile devices */
+@media only screen and (max-width: 375px) {
+  body {
+    /* header-background-mobile */
+
+    position: absolute;
+    width: 375px;
+    height: 718px;
+    background: #fff;
+  }
+
+  .logo img {
+    /* Logo Placeholder */
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 12px;
+    position: absolute;
+    width: 150;
+    height: 80px;
+    left: 12px;
+    top: calc(50% - 40px / 2);
+  }
+
+  .menu-icons {
+    /* Icons/Icon - Menu */
+
+    width: 24px;
+    height: 24px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .menu-button {
+    /* Normal Button/Tertiary/Enabled */
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 8px;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: 24px;
+    top: calc(50% - 40px / 2);
+    border-radius: 8px;
+  }
+
+  .headline {
+    /* Headline */
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+    padding: 114px 24px;
+    gap: 12px;
+    position: absolute;
+    width: 375px;
+    height: 604px;
+    left: calc(50% - 375px / 2);
+    top: 92px;
+    background-image: url(assets/images/header-bg/header-shapes-mobile.svg);
+  }
+
+  .headline h1 {
+    /* Primary Text */
+
+    width: 327px;
+    height: 150px;
+
+    /* Header / 2 */
+
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+
+    /* or 130% */
+
+    display: flex;
+    align-items: center;
+
+    /* Neutrals/N800 */
+
+    color: #172b4d;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .headline p {
+    /* Primary Text */
+
+    width: 327px;
+    height: 146px;
+
+    /* Body / 2 */
+
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    /* or 150% */
+
+    /* Neutrals/N600 */
+
+    color: #344563;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+
+  .navbar {
+    width: 375px;
+    height: 92px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+
+  .toolbar {
+    position: absolute;
+    left: 5px;
+    right: 5px;
+    top: 44px;
+    bottom: 20px;
+  }
+
+  .tertiary-enabled {
+    /* Normal Button/Tertiary/Enabled */
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: 24px;
+    top: calc(50% - 40px / 2);
+    border-radius: 8px;
+  }
+
+  .social-media {
+    /* Social Media */
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    width: 117px;
+    height: 24px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+  }
+
+  .social-media p {
+    /* LET’S CONNECT */
+
+    width: 117px;
+    height: 24px;
+
+    /* Body / 2 - Bolder */
+
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    /* identical to box height, or 150% */
+
+    /* Primary/B300 */
+
+    color: #7f8cff;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .social-media-icons {
+    width: 170.17px;
+    height: 20px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+  }
 }
 
-.logo {
-  /* Logo Placeholder */
-
-  /* Auto layout */
-
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 10px 12px;
-  position: absolute;
-  width: 100px;
-  height: 40px;
-  left: 12px;
-  top: calc(50% - 40px / 2);
-}
-
-.logo a {
-  width: 76px;
-  height: 20px;
-  text-decoration: none;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 20px;
-
-  /* identical to box height, or 111% */
-
-  display: flex;
-  align-items: center;
-  text-align: center;
-
-  /* Primary/B400 */
-
-  color: #6070ff;
-
-  /* Inside auto layout */
-
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-
-.menu-icons {
-  /* Icons/Icon - Menu */
-
-  width: 24px;
-  height: 24px;
-
-  /* Inside auto layout */
-
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-
-.menu-button {
-  /* Normal Button/Tertiary/Enabled */
-
-  /* Auto layout */
-
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 8px;
-  position: absolute;
-  width: 40px;
-  height: 40px;
-  right: 24px;
-  top: calc(50% - 40px / 2);
-  border-radius: 8px;
+/* media query when screen is larger than 768px. If [device width] is greater than or equal to the given pixels, run code */
+@media only screen and (min-width: 768px) {
+  body {
+    background-color: chocolate;
+  }
 }
