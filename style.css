@@ -1,16 +1,19 @@
-@import url("https://fonts.cdnfonts.com/css/poppins");
+/* media query when screen is larger than 768px. If [device width] is greater than or equal to the given pixels, run code */
+@media only screen and (min-width: 375px) and (max-width: 768px) {
+  @import url("https://fonts.cdnfonts.com/css/poppins");
 
-/* media query for mobile devices */
-@media only screen and (max-width: 375px) {
   body {
-    /* header-background-mobile */
-
-    position: absolute;
-    width: 375px;
-    height: 718px;
+    height: 100%;
     background: #fff;
   }
 
+  /* .headline-container {
+    max-width: 100%;
+    height: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: chartreuse;
+  } */
   .logo img {
     /* Logo Placeholder */
 
@@ -21,7 +24,6 @@
     align-items: center;
     padding: 10px 12px;
     position: absolute;
-    width: 90;
     height: 70px;
     left: 12px;
     top: calc(50% - 40px / 2);
@@ -30,7 +32,7 @@
   .menu-icons {
     /* Icons/Icon - Menu */
 
-    width: 24px;
+    max-width: 100%;
     height: 24px;
 
     /* Inside auto layout */
@@ -61,28 +63,34 @@
     /* Headline */
 
     /* Auto layout */
-
+    max-width: 100%;
+    height: 92px;
     display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+
+    /* /* display: flex; */
     flex-direction: column;
     align-items: flex-start;
     margin-top: 20px;
     padding: 114px 24px;
     gap: 12px;
     position: absolute;
-    width: 375px;
+    max-width: 100%;
     height: 604px;
-    left: calc(50% - 375px / 2);
+    /* left: calc(50% - 375px / 2); */
     top: 92px;
     background-image: url(assets/images/header-bg/header-shapes-mobile.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
     list-style-type: none;
   }
 
   .headline h1 {
     /* Primary Text */
 
-    width: 327px;
+    width: 100%;
     height: 150px;
 
     /* Header / 2 */
@@ -112,7 +120,7 @@
   .headline p {
     /* Primary Text */
 
-    width: 327px;
+    width: 100%;
     height: 146px;
 
     /* Body / 2 */
@@ -137,7 +145,7 @@
   }
 
   .navbar {
-    width: 375px;
+    max-width: 100%;
     height: 92px;
     display: flex;
     position: relative;
@@ -236,11 +244,8 @@
     align-items: flex-start;
     padding: 2px;
   }
-}
 
-/* media query when screen is larger than 768px. If [device width] is greater than or equal to the given pixels, run code */
-@media only screen and (min-width: 768px) {
-  body {
-    background-color: chocolate;
+  .projects {
+    display: flex;
   }
 }
