@@ -1,0 +1,219 @@
+/* media query when screen is larger than 768px. If [device width] is greater than or equal to the given pixels, run code */
+@media only screen and (min-width: 375px) and (max-width: 768px) {
+  @import url("https://fonts.cdnfonts.com/css/poppins");
+
+  body {
+    height: 100%;
+    background: #fff;
+  }
+
+  .header {
+    position: absolute;
+    left: 5px;
+    right: 5px;
+    top: 44px;
+    bottom: 5px;
+    max-width: 100%;
+    height: 92px;
+    display: flex;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+
+  .logo img {
+    padding: 10px 12px;
+    position: absolute;
+    height: 70px;
+    left: 12px;
+  }
+
+  .menu-icons {
+    /* Icons/Icon - Menu */
+
+    max-width: 100%;
+    height: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .menu-button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 8px;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: 24px;
+    border-radius: 8px;
+  }
+
+  .headline {
+    /* Headline */
+
+    /* Auto layout */
+    max-width: 100%;
+    display: flex;
+    position: relative;
+    flex-shrink: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+    padding: 114px 24px;
+    gap: 12px;
+    height: 604px;
+
+    /* left: calc(50% - 375px / 2); */
+    top: 92px;
+    background-image: url(assets/images/header-bg/header-shapes-mobile.svg);
+  }
+
+  .headline h1 {
+    width: 100%;
+    height: 150px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+
+    /* or 130% */
+
+    display: flex;
+    align-items: center;
+
+    /* Neutrals/N800 */
+
+    color: #172b4d;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .headline p {
+    /* Primary Text */
+
+    width: 100%;
+    height: 146px;
+
+    /* Body / 2 */
+
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    /* or 150% */
+
+    /* Neutrals/N600 */
+
+    color: #344563;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+
+  .toolbar {
+    position: absolute;
+    left: 5px;
+    right: 5px;
+    top: 44px;
+    bottom: 20px;
+  }
+
+  .navbar {
+    /* Normal Button/Tertiary/Enabled */
+
+    /* Auto layout */
+
+    /* display: flex;
+    flex-direction: row;
+    align-items: flex-start; */
+    padding: 8px;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: 24px;
+    top: calc(50% - 40px / 2);
+    border-radius: 8px;
+  }
+
+  .social-media {
+    /* Social Media */
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    width: 117px;
+    height: 24px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+  }
+
+  .social-media p {
+    /* LET’S CONNECT */
+
+    width: 117px;
+    height: 24px;
+
+    /* Body / 2 - Bolder */
+
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    /* identical to box height, or 150% */
+
+    /* Primary/B300 */
+
+    color: #7f8cff;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .social-media-icons li {
+    margin-right: 10px;
+  }
+
+  .social-media-icons {
+    width: 170.17px;
+    height: 20px;
+
+    /* Inside auto layout */
+
+    /* flex: none; */
+    flex-wrap: wrap;
+    order: 3;
+    flex-grow: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: inherit;
+    align-items: flex-start;
+    padding: 2px;
+  }
+
+  .projects {
+    display: flex;
+  }
+}
