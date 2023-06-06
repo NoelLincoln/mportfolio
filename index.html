@@ -5,7 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+
     <link href="https://fonts.cdnfonts.com/css/poppins" rel="stylesheet" />
+    <script src="index.js"></script>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -160,7 +163,9 @@
           </div>
           <div class="resume-button">
             <div class="resume">
-              Get my resume
+              <a
+                href="https://drive.google.com/file/d/1iD2S5PJAGP1TI_19C9GD2Zo4FpeSRO1N/view?usp=sharing">Get
+                my resume</a>
             </div>
           </div>
 
@@ -168,25 +173,28 @@
         <div class="skill-list">
           <div class="dropdown">
             <input type="checkbox" id="dropdown" />
-            <label for="dropdown" class="dropdown-btn">
+            <label for="dropdown" class="dropdown-btn" id="languages">
               <span class="languages">Languages</span>
               <span class="arrow right"></span>
             </label>
 
             <ul class="dropdown-content" role="menu">
-              <li><a href="#">Javascript</a></li>
-              <li><a href="#">HTML</a></li>
-              <li><a href="#">CSS</a></li>
+              <li><img src="assets/images/javascript.png" alt="javascript
+                  image"/><a href="#">Javascript</a></li>
+              <li><img src="assets/images/html.png" alt="html
+                  image"/><a href="#">HTML</a></li>
+              <li><img src="assets/images/javascript.png" alt="javascript
+                  image"/><a href="#">CSS</a></li>
             </ul>
           </div>
           <div class="dropdown">
             <input type="checkbox" id="dropdown" />
             <label for="dropdown" class="dropdown-btn">
               <span class="languages">Frameworks</span>
-              <span class="arrow"></span>
+              <span class="arrow right"></span>
             </label>
 
-            <ul class="dropdown-content" role="menu">
+            <ul class="dropdown-content-frameworks" role="menu">
               <li><a href="#">React</a></li>
               <li><a href="#">Angular</a></li>
               <li><a href="#">Vue</a></li>
@@ -197,10 +205,10 @@
             <input type="checkbox" id="dropdown" />
             <label for="dropdown" class="dropdown-btn">
               <span class="languages">Skills</span>
-              <span class="arrow"></span>
+              <span class="arrow right"></span>
             </label>
 
-            <ul class="dropdown-content" role="menu">
+            <ul class="dropdown-content-skills" role="menu">
               <li><a href="#">React</a></li>
               <li><a href="#">Angular</a></li>
               <li><a href="#">Vue</a></li>

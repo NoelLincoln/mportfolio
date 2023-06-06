@@ -6,6 +6,9 @@
     height: 100%;
     background: #fff;
   }
+  a {
+    text-decoration: none;
+  }
 
   .header {
     position: absolute;
@@ -734,7 +737,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 114px 24px;
+    /* padding: 114px 24px; */
     gap: 24px;
     width: 100%;
     height: auto;
@@ -750,7 +753,9 @@
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
-    /* gap: 12px; */
+    gap: 12px;
+    margin-left: 50px;
+    margin-right: 50px;
 
     width: 100%;
     height: auto;
@@ -817,67 +822,61 @@
     flex-grow: 0;
   }
   .socials {
-/* Social Media */
+    /* Social Media */
 
+    /* Auto layout */
 
-/* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 5px;
+    gap: 26px;
 
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding-left: 5px;
-gap: 26px;
+    width: 200px;
+    height: 80px;
 
-width: 200px;
-height: 80px;
+    /* Inside auto layout */
 
-
-/* Inside auto layout */
-
-flex: none;
-order: 2;
-flex-grow: 0;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
   }
   .support-text {
+    padding: 0px;
+    gap: 8px;
 
-padding: 0px;
-gap: 8px;
+    width: 117px;
+    height: 24px;
 
-width: 117px;
-height: 24px;
+    /* Inside auto layout */
 
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
   }
 
-  .support-text>p{
+  .support-text > p {
     width: 117px;
-height: 24px;
+    height: 24px;
 
-/* Body / 2 - Bolder */
+    /* Body / 2 - Bolder */
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-/* identical to box height, or 150% */
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
 
+    /* Primary/B300 */
 
-/* Primary/B300 */
+    color: #7f8cff;
 
-color: #7F8CFF;
+    /* Inside auto layout */
 
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
   }
 
   .social-med {
@@ -933,181 +932,200 @@ flex-grow: 0;
 
     width: 138px;
     height: 24px;
-   font-family: "Poppins";
-   font-style: normal; 
+    font-family: "Poppins";
+    font-style: normal;
     font-weight: 500;
     /* font-size: 17px; */
-    line-height: 24px; */
-    /* identical to box height, or 141% */
-
-    /* display: flex;
-    align-items: center;
-    text-align: center; */
+    line-height: 24px;
     letter-spacing: 0.03em;
-
-    /* Primary/B500 */
-
     color: #396df2;
   }
 
-.skill-list{
-  /* Skill List */
+  .skill-list {
+    /* Skill List */
 
+    /* Auto layout */
 
-/* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
 
-display: flex;
-flex-direction: column;
-align-items: center;
-padding: 0px;
+    width: 100%;
+    height: auto;
 
-width: 100%;
-height: auto;
+    /* Inside auto layout */
 
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  .languages {
+    /* Frame 12 */
 
-/* Inside auto layout */
+    /* Auto layout */
 
-flex: none;
-order: 1;
-flex-grow: 0;
-}
-.languages{
-  /* Frame 12 */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
 
+    width: 327px;
+    height: auto;
 
-/* Auto layout */
+    /* Inside auto layout */
 
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    /* Languages */
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+  }
 
-width: 327px;
-height: auto;
+  .dropdown {
+    /* Frame 12 */
 
+    /* Auto layout */
 
-/* Inside auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
 
-flex: none;
-order: 0;
-flex-grow: 0;
-/* Languages */
+    width: 100%;
+    height: auto;
 
+    /* Inside auto layout */
 
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
 
+  .dropdown-btn {
+    background: #fff;
+    font-size: 18px;
+    /* width: 100%; */
+    border: none;
+    color: #292525;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.7em 0.5em;
+    border-radius: 0.5em;
+    cursor: pointer;
+  }
 
-/* Body / 1 - Bolder */
+  .arrow {
+    margin-right: auto;
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 24px;
+  .dropdown-content {
+    display: flex;
+    padding: 12px;
+    border-radius: 8px;
+    list-style: none;
+    position: relative;
+    width: 100%;
+    display: none;
+    visibility: hidden;
+    overflow: hidden;
+    transform: translateY(-1em);
+    transition: transform ease 0.3s;
+  }
+  .dropdown-content.close {
+    display: none;
+  }
 
+  .dropdown-content-skills {
+    display: none;
+  }
+  .dropdown-content-frameworks {
+    display: none;
+  }
 
-}
+  input[type="checkbox"]:checked ~ .dropdown-content {
+    visibility: visible;
+    transform: translateY(0);
+  }
 
-  /* Dropdown styles */
+  .dropdown-content li {
+    /* Neutrals/N10 */
 
-.dropdown {
-  /* Frame 12 */
+    background: #f7f7f9;
+    border-radius: 8px;
+    display: flex;
+    gap: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 66.72px;
 
+    /* Neutrals/N10 */
 
-/* Auto layout */
+    background: #f7f7f9;
+    border-radius: 8px;
 
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
+    /* Inside auto layout */
 
-width: 100%;
-height: auto;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
 
+  input[type="checkbox"]:checked + label > .arrow {
+    transform: rotate(45deg);
+  }
 
-/* Inside auto layout */
+  input[type="checkbox"] {
+    opacity: 0;
+    position: absolute;
+  }
 
-flex: none;
-order: 0;
-flex-grow: 0;
-}
+  input[type="checkbox"]:focus + label {
+    box-shadow: 0 0 20px rgb(83, 83, 83);
+  }
 
-.dropdown-btn {
-  background: #fff;
-  font-size: 18px;
-  width: 100%;
-  border: none;
-  color: #292525;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0.7em 0.5em;
-  border-radius: 0.5em;
-  cursor: pointer;
-}
+  .dropdown-content li:hover {
+    background: #1d1f24;
+  }
 
-.arrow {
-  margin-right: 20px;
-  border: solid black;
-  border-width: 0 3px 3px 0;
-  display: inline-block;
-  padding: 3px;
-  
-}
-.right {
-  transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
-}
+  .dropdown-content li a {
+    display: block;
+    padding: 0.7em 0.5em;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #253858;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    /* or 133% */
 
-.dropdown-content {
-  padding-left: 1px;
-  list-style: none;
-  position: relative;
-  /* top: 3.2em; */
-  width: 100%;
-  /* display: none; */
-  visibility: hidden;
-  overflow: hidden;
-  transform: translateY(-1em);
-  transition: transform ease 0.3s;
-  
-}
+    display: flex;
+    align-items: center;
+  }
 
-input[type="checkbox"]:checked ~ .dropdown-content {
-  visibility: visible;
-  transform: translateY(0);
-}
-
-.dropdown-content li {
-  background: #2f3238;
-  border-radius: 0.5em;
-}
-
-input[type="checkbox"]:checked + label > .arrow {
-  transform: rotate(45deg);
-}
-
-input[type="checkbox"] {
-  opacity: 0;
-  position: absolute;
-}
-
-input[type="checkbox"]:focus + label {
-  box-shadow: 0 0 20px rgb(83, 83, 83);
-}
-
-.dropdown-content li:hover {
-  background: #1d1f24;
-}
-
-.dropdown-content li a {
-  display: block;
-  padding: 0.7em 0.5em;
-  color: #fff;
-  margin: 0.1em 0;
-  text-decoration: none;
-}
-
-
+  .dropdown-content li img {
+    width: 48px;
+    height: 48px;
+    left: 12px;
+    margin-top: 10px;
+    margin-left: 5px;
+  }
 
   .projects {
     display: flex;
