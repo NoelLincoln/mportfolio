@@ -158,6 +158,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+
     /* gap: 16px; */
     width: 117px;
     height: 24px;
@@ -302,6 +303,7 @@
     width: 100%;
     margin-top: auto;
     margin-bottom: auto;
+
     /* height: 36px; */
     font-family: "Poppins", sans-serif;
     font-style: normal;
@@ -743,6 +745,7 @@
     background-color: #6070ff;
     color: #fff;
   }
+
   .action-button:active {
     background-color: #fff;
     color: #6070ff;
@@ -822,6 +825,7 @@
     width: 100%;
     height: auto;
     margin-bottom: 5px;
+
     /* Body / 2 */
 
     font-family: "Poppins", sans-serif;
@@ -909,6 +913,7 @@
     list-style-type: none;
     margin-top: 10px;
     width: 200px;
+
     /* height: 40px; */
 
     /* Inside auto layout */
@@ -923,6 +928,7 @@
 
     box-sizing: border-box;
     background-color: #fff;
+
     /* Auto layout */
 
     align-items: center;
@@ -943,21 +949,6 @@
     order: 3;
     flex-grow: 0;
   }
-  .resume:hover {
-    /* background: #6070ff; */
-    /* Button/1 */
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 17px;
-    width: auto;
-    height: 48px;
-    line-height: 24px;
-    background-color: #6070ff;
-    color: #fff;
-    box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
-    border-radius: 8px;
-  }
 
   .resume {
     /* Normal Button/Secondary/Enabled */
@@ -966,9 +957,10 @@
 
     /* Auto layout */
     color: #6070ff;
+
     /* Button /Normal */
 
-    font-family: "Poppins";
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
@@ -980,7 +972,6 @@
     width: 162px;
     height: 48px;
     border: 1px solid #6070ff;
-
     border-radius: 8px;
 
     /* Inside auto layout */
@@ -990,11 +981,18 @@
 
     /* Button /Normal */
 
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 500;
-    align-items: center;
     text-align: center;
+  }
+
+  .resume:hover {
+    font-size: 17px;
+    width: auto;
+    height: 48px;
+    line-height: 24px;
+    background-color: #6070ff;
+    color: #fff;
+    box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+    border-radius: 8px;
   }
 
   .resume a {
@@ -1005,11 +1003,12 @@
 
     /* Button /Normal */
 
-    font-family: "Poppins";
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
     line-height: 24px;
+
     /* identical to box height, or 141% */
 
     display: flex;
