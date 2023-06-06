@@ -216,6 +216,12 @@
     padding: 2px;
   }
 
+  .work-collection {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 20px;
+  }
+
   .works {
     /* Card Works */
 
