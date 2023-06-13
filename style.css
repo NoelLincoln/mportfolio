@@ -1306,4 +1306,9 @@
     color: #fff;
     border: 1px solid white;
   }
+
+  input[type="submit"]:active {
+    background-color: #2230d2;
+    color: #fff;
+  }
 }
