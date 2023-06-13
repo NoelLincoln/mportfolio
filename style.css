@@ -1248,9 +1248,9 @@
 
   input[type="text"] {
     height: 48px;
-    width: 100%;
+    /* width: 100%; */
     left: 24px;
-    padding-left: 5px;
+    padding-left: 15px;
     border: none;
     border-radius: 8px;
     font-family: "Poppins", sans-serif;
@@ -1259,15 +1259,29 @@
     font-size: 17px;
     line-height: 20px;
   }
-
+  input[type="email"] {
+    height: 48px;
+    /* width: 100%; */
+    left: 24px;
+    padding-left: 15px;
+    border: none;
+    border-radius: 8px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+  }
   .contact-form textarea {
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
     line-height: 24px;
     resize: none;
-    width: 100%;
+    /* width: 100%; */
     color: #b3bac5;
     border-radius: 15px;
     -moz-border-radius: 15px;
