@@ -1248,8 +1248,6 @@
 
   input[type="text"] {
     height: 48px;
-    /* width: 100%; */
-    left: 24px;
     padding-left: 15px;
     border: none;
     border-radius: 8px;
@@ -1259,10 +1257,9 @@
     font-size: 17px;
     line-height: 20px;
   }
+
   input[type="email"] {
     height: 48px;
-    /* width: 100%; */
-    left: 24px;
     padding-left: 15px;
     border: none;
     border-radius: 8px;
@@ -1272,6 +1269,7 @@
     font-size: 17px;
     line-height: 20px;
   }
+
   .contact-form textarea {
     font-family: "Poppins", sans-serif;
     font-style: normal;
@@ -1281,7 +1279,6 @@
     padding-top: 15px;
     line-height: 24px;
     resize: none;
-    /* width: 100%; */
     color: #b3bac5;
     border-radius: 15px;
     -moz-border-radius: 15px;
@@ -1301,5 +1298,12 @@
     font-weight: 500;
     font-size: 17px;
     line-height: 24px;
+  }
+
+  .submit-btn:hover {
+    background: #6070ff;
+    transition-duration: 0.1s;
+    color: #fff;
+    border: 1px solid white;
   }
 }
