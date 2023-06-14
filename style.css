@@ -1,5 +1,5 @@
 /* media query when screen is larger than 768px. If [device width] is greater than or equal to the given pixels, run code */
-@media only screen and (min-width: 375px) and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   @import url("https://fonts.cdnfonts.com/css/poppins");
 
   body {
@@ -64,18 +64,19 @@
     flex-direction: column;
     align-items: flex-start;
     margin-top: 20px;
+    margin-bottom: 100px;
     padding: 114px 24px;
     gap: 12px;
-    height: 604px;
 
     /* left: calc(50% - 375px / 2); */
     top: 92px;
     background-image: url(assets/images/header-bg/header-shapes-mobile.svg);
+    background-size: 100%;
+    background-position-x: 100%;
   }
 
   .headline h1 {
     width: 100%;
-    height: 150px;
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -87,42 +88,24 @@
     display: flex;
     align-items: center;
 
-    /* Neutrals/N800 */
-
+    margin-bottom: auto;
     color: #172b4d;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
   }
 
   .headline p {
     /* Primary Text */
 
     width: 100%;
-    height: 146px;
 
-    /* Body / 2 */
-
+    margin-bottom: 100px;
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-
-    /* or 150% */
-
-    /* Neutrals/N600 */
+    height: 75px;
 
     color: #344563;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
   }
 
   .toolbar {
@@ -237,7 +220,7 @@
     padding: 16px;
     gap: 12px;
     width: 100%;
-    height: 552px;
+    /* height: auto; */
 
     /* Neutrals/N0 */
 
@@ -259,7 +242,7 @@
     /* Snapshoot Portfolio */
 
     width: 100%;
-    height: 220px;
+    height: auto;
     background: url(blog_drbl_4x.png);
     border-radius: 8px;
 
@@ -268,6 +251,11 @@
     flex: none;
     order: 0;
     flex-grow: 0;
+  }
+
+  .snapshot > img {
+    width: 100%;
+    max-width: 100%;
   }
 
   .card-info {
@@ -759,6 +747,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
 
     /* padding: 114px 24px; */
     gap: 24px;
@@ -1216,7 +1206,7 @@
     align-items: center;
     background-image: url(assets/images/contact-form-bg/contact\ form\ shapes-mobile.svg);
     background-repeat: no-repeat;
-    background-position-x: 195px;
+    background-position-x: 100%;
   }
 
   .contact-form h2 {
@@ -1310,5 +1300,44 @@
   input[type="submit"]:active {
     background-color: #2230d2;
     color: #fff;
+  }
+}
+
+@media only screen and (min-width: 641px) {
+  .headline h1 {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 704px) {
+  .headline h1 {
+    width: auto;
+  }
+}
+
+@media only screen and (min-width: 747px) {
+  .headline h1 {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 428px) {
+  .headline p {
+    margin-bottom: 48px;
+  }
+}
+@media only screen and (min-width: 429px) {
+  .headline p {
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (min-width: 512px) {
+  .headline p {
+    margin-bottom: 15px;
+  }
+}
+@media only screen and (min-width: 660px) {
+  .headline p {
+    margin-bottom: -10px;
   }
 }
