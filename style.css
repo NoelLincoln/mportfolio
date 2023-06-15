@@ -87,7 +87,6 @@
 
     display: flex;
     align-items: center;
-
     margin-bottom: auto;
     color: #172b4d;
   }
@@ -96,7 +95,6 @@
     /* Primary Text */
 
     width: 100%;
-
     margin-bottom: 100px;
     font-family: "Poppins", sans-serif;
     font-style: normal;
@@ -104,7 +102,6 @@
     font-size: 16px;
     line-height: 24px;
     height: 75px;
-
     color: #344563;
   }
 
@@ -220,6 +217,7 @@
     padding: 16px;
     gap: 12px;
     width: 100%;
+
     /* height: auto; */
 
     /* Neutrals/N0 */
@@ -1326,16 +1324,19 @@
     margin-bottom: 48px;
   }
 }
+
 @media only screen and (min-width: 429px) {
   .headline p {
     margin-bottom: 30px;
   }
 }
+
 @media only screen and (min-width: 512px) {
   .headline p {
     margin-bottom: 15px;
   }
 }
+
 @media only screen and (min-width: 660px) {
   .headline p {
     margin-bottom: -10px;
@@ -1356,33 +1357,40 @@
     /* margin-bottom: 150px; */
     clear: both;
   }
+
   .logo {
     float: left;
   }
+
   .logo img {
     padding: 10px 12px;
     height: 100px;
     margin-left: 90px;
   }
+
   .navbar {
     margin-left: 95%;
   }
+
   .headline-container {
     padding-top: 30px;
     padding-left: 30px;
     padding-right: 30px;
   }
+
   .headline {
     /* Headline */
 
     /* Auto layout */
     max-width: 100%;
+
     /* padding-left: 200px;
     padding-right: 200px; */
     position: relative;
     flex-shrink: 0;
     flex-direction: column;
     align-items: flex-start;
+
     /* margin-top: 20px; */
     margin-bottom: 100px;
     padding: 114px 24px;
@@ -1393,6 +1401,7 @@
     background-image: url(assets/images/header-bg-desktop/Header\ bg@2x.png);
     background-repeat: no-repeat;
     background-size: 100%;
+
     /* background-position-x: 100%; */
   }
 
@@ -1409,7 +1418,6 @@
 
     display: flex;
     align-items: center;
-
     margin-bottom: auto;
     color: #172b4d;
   }
@@ -1425,10 +1433,12 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
+
     /* height: 75px; */
 
     color: #344563;
   }
+
   .social-media {
     /* Social Media */
 
@@ -1476,6 +1486,7 @@
     order: 0;
     flex-grow: 0;
   }
+
   .social-media-icons {
     /* width: 170.17px; */
     height: 20px;
@@ -1496,6 +1507,7 @@
   .social-media-icons li {
     margin-right: 10px;
   }
+
   .work-collection {
     display: grid;
     grid-template-columns: auto;
@@ -1517,6 +1529,7 @@
     padding: 16px;
     gap: 12px;
     width: 100%;
+
     /* height: auto; */
 
     /* Neutrals/N0 */
@@ -1546,7 +1559,8 @@
     border-radius: 8px;
 
     /* Inside auto layout */
-    /* 
+
+    /*
     flex: none;
     order: 0;
     flex-grow: 0; */
@@ -1568,6 +1582,7 @@
     width: 45%;
     float: left;
     padding-left: 50px;
+
     /* height: 288px; */
   }
 
@@ -2037,5 +2052,444 @@
   .action-button:active {
     background-color: #fff;
     color: #6070ff;
+  }
+
+  .about-myself {
+    clear: both;
+    padding: 114px 24px;
+    height: auto;
+  }
+
+  .top {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    width: 45%;
+    float: left;
+    height: auto;
+  }
+
+  .top h2 {
+    /* Primary Text */
+
+    width: 327px;
+    height: 35px;
+    margin-bottom: 10px;
+
+    /* Header / 2 */
+
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+
+    /* or 130% */
+
+    display: flex;
+    align-items: center;
+
+    /* Neutrals/N800 */
+
+    color: #172b4d;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .top p {
+    /* Primary Text */
+
+    width: 100%;
+    height: auto;
+    margin-bottom: 5px;
+
+    /* Body / 2 */
+
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    /* or 150% */
+
+    /* Neutrals/N600 */
+
+    color: #344563;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+
+  .socials {
+    /* Social Media */
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 5px;
+    width: 200px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+  }
+
+  .support-text {
+    padding: 0;
+    width: 117px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .support-text > p {
+    width: 117px;
+
+    /* Body / 2 - Bolder */
+
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    /* identical to box height, or 150% */
+
+    /* Primary/B300 */
+
+    color: #7f8cff;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .social-med {
+    /* Frame 1 */
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+    padding: 0;
+    list-style-type: none;
+    margin-top: 10px;
+    width: 200px;
+
+    /* height: 40px; */
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+
+  .resume-button {
+    /* Normal Button/Secondary/Enabled */
+
+    box-sizing: border-box;
+    background-color: #fff;
+
+    /* Auto layout */
+
+    align-items: center;
+    padding: 12px;
+    gap: 10px;
+    margin-top: 10px;
+    width: 162px;
+    height: 48px;
+
+    /* Primary/B400 */
+
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+  }
+
+  .resume {
+    /* Normal Button/Secondary/Enabled */
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+    color: #6070ff;
+
+    /* Button /Normal */
+
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    align-items: center;
+    padding: 12px;
+    gap: 10px;
+    background-color: #fff;
+    width: 162px;
+    height: 48px;
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 3;
+
+    /* Button /Normal */
+
+    text-align: center;
+  }
+
+  .resume:hover {
+    font-size: 17px;
+    width: auto;
+    height: 48px;
+    line-height: 24px;
+    background-color: #6070ff;
+    color: #fff;
+    box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+    border-radius: 8px;
+  }
+
+  .resume a {
+    /* Get my resume */
+
+    width: auto;
+    height: 24px;
+
+    /* Button /Normal */
+
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+
+    /* identical to box height, or 141% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    /* Primary/B500 */
+
+    color: #396df2;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .skill-list {
+    margin-top: 50px;
+    margin-bottom: 60px;
+    padding: 0;
+    width: 45%;
+    float: left;
+    height: auto;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+
+  .languages {
+    /* Frame 12 */
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 327px;
+    height: auto;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    /* Languages */
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .dropdown {
+    /* Frame 12 */
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    width: 100%;
+    height: auto;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .dropdown-btn {
+    background: #fff;
+    font-size: 18px;
+
+    width: 100%;
+
+    border: none;
+    color: #292525;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 200px;
+    padding: 0.7em 0.5em;
+    border-radius: 0.5em;
+    cursor: pointer;
+  }
+
+  .arrow {
+    margin-right: auto;
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+
+  .dropdown-content {
+    display: flex;
+    gap: 10px;
+    padding-left: 5px;
+  }
+
+  .dropdown-content.close {
+    display: flex;
+    border-radius: 8px;
+    padding: 1px;
+    list-style: none;
+    position: relative;
+    width: 400px;
+    /* visibility: hidden; */
+    overflow: hidden;
+
+    transform: translateY(1em);
+    transition: transform ease 0.3s;
+  }
+
+  .dropdown-content-skills {
+    display: none;
+  }
+
+  .dropdown-content-frameworks {
+    display: none;
+  }
+
+  input[type="checkbox"]:checked ~ .dropdown-content {
+    visibility: visible;
+    transform: translateY(0);
+  }
+
+  .dropdown-content li {
+    /* Neutrals/N10 */
+
+    background: #f7f7f9;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100px;
+    height: auto;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  input[type="checkbox"]:checked + label > .arrow {
+    transform: rotate(45deg);
+  }
+
+  input[type="checkbox"] {
+    opacity: 0;
+    position: absolute;
+  }
+
+  input[type="checkbox"]:focus + label {
+    box-shadow: 0 0 20px rgb(83, 83, 83);
+  }
+
+  .dropdown-content li:hover {
+    background: #1d1f24;
+  }
+
+  .dropdown-content li a {
+    display: block;
+    padding: 0.7em 0.5em;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #253858;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .dropdown-content li img {
+    width: 48px;
+    height: 48px;
+    left: 12px;
+    margin-top: 10px;
+    margin-left: 5px;
   }
 }
