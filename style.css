@@ -1496,4 +1496,546 @@
   .social-media-icons li {
     margin-right: 10px;
   }
+  .work-collection {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .works {
+    /* Card Works */
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    padding: 16px;
+    gap: 12px;
+    width: 100%;
+    /* height: auto; */
+
+    /* Neutrals/N0 */
+
+    background: #fff;
+
+    /* Neutrals/N40 */
+
+    border: 1px solid #dfe1e6;
+    border-radius: 16px;
+
+    /* Inside auto layout */
+
+    /* flex: none;
+    order: 0;
+    flex-grow: 0; */
+
+    clear: both;
+  }
+
+  .snapshot {
+    /* Snapshoot Portfolio */
+
+    width: 45%;
+    height: auto;
+    float: left;
+    border-radius: 8px;
+
+    /* Inside auto layout */
+    /* 
+    flex: none;
+    order: 0;
+    flex-grow: 0; */
+  }
+
+  .snapshot > img {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .card-info {
+    /* Left Block */
+
+    /* Auto layout */
+
+    /* display: flex;
+    flex-direction: column;
+    align-items: flex-start; */
+    width: 45%;
+    float: left;
+    padding-left: 50px;
+    /* height: 288px; */
+  }
+
+  .primary-text {
+    /* Primary Text */
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    width: 100%;
+
+    /* Inside auto layout */
+  }
+
+  .primary-text h2 {
+    /* Project Title */
+
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+
+    /* height: 36px; */
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+
+    /* or 138% */
+
+    /* Neutrals/N800 */
+
+    color: #172b4d;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .work-info {
+    /* Frame 2 */
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    gap: 12px;
+    width: 100%;
+    height: 32px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+
+  .client {
+    /* Client */
+
+    /* Auto layout */
+
+    padding: 8px 0;
+    width: 55px;
+    height: 42px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .client p {
+    /* Text */
+
+    width: 100%;
+    height: 16px;
+
+    /* Caption / 1 - Bolder */
+
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #344563;
+  }
+
+  .counter {
+    /* Counter */
+
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+
+    /* Neutrals/N50 */
+
+    background: #c1c7d0;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+
+  .role {
+    /* Role */
+
+    /* Auto layout */
+
+    /* display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 0px; */
+
+    width: 88px;
+    height: 42px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+  }
+
+  .role p {
+    /* Text */
+
+    width: 88px;
+    height: 16px;
+
+    /* Caption / 1 - Bolder */
+
+    font-family: "Poppins", sans-serif, sans-pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+
+    /* identical to box height, or 123% */
+
+    /* Neutrals/N100 */
+
+    color: #7a869a;
+  }
+
+  .counterone {
+    /* Counter */
+
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+
+    /* Neutrals/N50 */
+
+    background: #c1c7d0;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+  }
+
+  .year {
+    /* Year Label */
+
+    /* Auto layout */
+
+    /* display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 0px; */
+
+    width: 29px;
+    height: 42px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+  }
+
+  .year p {
+    /* Text */
+
+    width: 29px;
+    height: 16px;
+
+    /* Caption / 1 - Bolder */
+
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+
+    /* identical to box height, or 123% */
+
+    /* Neutrals/N100 */
+
+    color: #7a869a;
+
+    /* Inside auto layout */
+  }
+
+  .description-text {
+    /* Primary Text */
+
+    width: 100%;
+    height: 76px;
+
+    /* Body / 3 */
+
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+
+    /* or 160% */
+
+    /* Neutrals/N600 */
+
+    color: #344563;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .language-tags {
+    /* Tags */
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5px;
+    padding: 0;
+    gap: 8px;
+    list-style-type: none;
+    width: 214px;
+    height: auto;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+  }
+
+  .html-lan {
+    /* Tag */
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px 12px;
+    width: 57px;
+    height: 24px;
+
+    /* Primary/B50 */
+
+    background: #ebebff;
+    border-radius: 8px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  li.html-lan {
+    /* HTML */
+
+    width: 33px;
+    height: 16px;
+
+    /* Button / Small */
+
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+
+    /* identical to box height, or 133% */
+
+    letter-spacing: 0.03em;
+
+    /* Primary/B400 */
+
+    color: #6070ff;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .css {
+    /* Tag */
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px 12px;
+    width: 49px;
+    height: 24px;
+
+    /* Primary/B50 */
+
+    background: #ebebff;
+    border-radius: 8px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+
+  li.css {
+    /* CSS */
+
+    width: 25px;
+    height: 16px;
+
+    /* Button / Small */
+
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+
+    /* identical to box height, or 133% */
+
+    letter-spacing: 0.03em;
+
+    /* Primary/B400 */
+
+    color: #6070ff;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .javascript {
+    /* Tag */
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px 12px;
+    width: 92px;
+    height: 24px;
+
+    /* Primary/B50 */
+
+    background: #ebebff;
+    border-radius: 8px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+  }
+
+  li.javascript {
+    /* JavaScript */
+
+    width: 68px;
+    height: 16px;
+
+    /* Button / Small */
+
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+
+    /* identical to box height, or 133% */
+
+    letter-spacing: 0.03em;
+
+    /* Primary/B400 */
+
+    color: #6070ff;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .action {
+    /* Action */
+
+    width: 295px;
+    height: 72px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+  }
+
+  .action-button {
+    width: 126px;
+    height: 48px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    gap: 10px;
+    background-color: white;
+
+    /* Primary/B500 */
+
+    color: #396df2;
+
+    /* Primary/B400 */
+
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    margin-left: 5px;
+    left: 20px;
+  }
+
+  .action-button:hover {
+    background-color: #6070ff;
+    color: #fff;
+  }
+
+  .action-button:active {
+    background-color: #fff;
+    color: #6070ff;
+  }
 }
