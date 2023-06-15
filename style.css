@@ -466,6 +466,7 @@
     letter-spacing: 0.03em;
     gap: 10px;
     background-color: white;
+    transition: background-color 1s;
 
     /* Primary/B500 */
 
@@ -1466,6 +1467,7 @@
     letter-spacing: 0.03em;
     gap: 10px;
     background-color: white;
+    transition: background-color 1s;
 
     /* Primary/B500 */
 
