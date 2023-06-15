@@ -54,9 +54,6 @@
   }
 
   .headline {
-    /* Headline */
-
-    /* Auto layout */
     max-width: 100%;
     display: flex;
     position: relative;
@@ -92,8 +89,6 @@
   }
 
   .headline p {
-    /* Primary Text */
-
     width: 100%;
     margin-bottom: 100px;
     font-family: "Poppins", sans-serif;
@@ -129,47 +124,25 @@
   }
 
   .social-media {
-    /* Social Media */
-
-    /* Auto layout */
-
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-
-    /* gap: 16px; */
     width: 117px;
     height: 24px;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 2;
     flex-grow: 0;
   }
 
   .social-media p {
-    /* LET’S CONNECT */
-
     width: 117px;
     height: 24px;
-
-    /* Body / 2 - Bolder */
-
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-
-    /* identical to box height, or 150% */
-
-    /* Primary/B300 */
-
     color: #7f8cff;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -182,10 +155,6 @@
   .social-media-icons {
     width: 170.17px;
     height: 20px;
-
-    /* Inside auto layout */
-
-    /* flex: none; */
     flex-wrap: wrap;
     order: 3;
     flex-grow: 0;
@@ -203,47 +172,25 @@
   }
 
   .works {
-    /* Card Works */
-
     box-sizing: border-box;
-
-    /* Auto layout */
-
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 16px;
     gap: 12px;
     width: 100%;
-
-    /* height: auto; */
-
-    /* Neutrals/N0 */
-
     background: #fff;
-
-    /* Neutrals/N40 */
-
     border: 1px solid #dfe1e6;
     border-radius: 16px;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     flex-grow: 0;
   }
 
   .snapshot {
-    /* Snapshoot Portfolio */
-
     width: 100%;
     height: auto;
-    background: url(blog_drbl_4x.png);
     border-radius: 8px;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -255,10 +202,6 @@
   }
 
   .card-info {
-    /* Left Block */
-
-    /* Auto layout */
-
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -268,51 +211,29 @@
   }
 
   .primary-text {
-    /* Primary Text */
-
-    /* Auto layout */
-
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0;
     width: 100%;
-
-    /* Inside auto layout */
   }
 
   .primary-text h2 {
-    /* Project Title */
-
     width: 100%;
     margin-top: auto;
     margin-bottom: auto;
-
-    /* height: 36px; */
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
     line-height: 44px;
-
-    /* or 138% */
-
-    /* Neutrals/N800 */
-
     color: #172b4d;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     flex-grow: 0;
   }
 
   .work-info {
-    /* Frame 2 */
-
-    /* Auto layout */
-
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -320,38 +241,23 @@
     gap: 12px;
     width: 100%;
     height: 32px;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 1;
     flex-grow: 0;
   }
 
   .client {
-    /* Client */
-
-    /* Auto layout */
-
     padding: 8px 0;
     width: 55px;
     height: 42px;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     flex-grow: 0;
   }
 
   .client p {
-    /* Text */
-
     width: 100%;
     height: 16px;
-
-    /* Caption / 1 - Bolder */
-
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -361,157 +267,78 @@
   }
 
   .counter {
-    /* Counter */
-
     width: 8px;
     height: 8px;
     border-radius: 4px;
-
-    /* Neutrals/N50 */
-
     background: #c1c7d0;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 1;
     flex-grow: 0;
   }
 
   .role {
-    /* Role */
-
-    /* Auto layout */
-
-    /* display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 8px 0px; */
-
     width: 88px;
     height: 42px;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 2;
     flex-grow: 0;
   }
 
   .role p {
-    /* Text */
-
     width: 88px;
     height: 16px;
-
-    /* Caption / 1 - Bolder */
-
     font-family: "Poppins", sans-serif, sans-pro;
     font-style: normal;
     font-weight: 600;
     font-size: 13px;
     line-height: 16px;
-
-    /* identical to box height, or 123% */
-
-    /* Neutrals/N100 */
-
     color: #7a869a;
   }
 
   .counterone {
-    /* Counter */
-
     width: 8px;
     height: 8px;
     border-radius: 4px;
-
-    /* Neutrals/N50 */
-
     background: #c1c7d0;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 3;
     flex-grow: 0;
   }
 
   .year {
-    /* Year Label */
-
-    /* Auto layout */
-
-    /* display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 8px 0px; */
-
     width: 29px;
     height: 42px;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 4;
     flex-grow: 0;
   }
 
   .year p {
-    /* Text */
-
     width: 29px;
     height: 16px;
-
-    /* Caption / 1 - Bolder */
-
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 13px;
     line-height: 16px;
-
-    /* identical to box height, or 123% */
-
-    /* Neutrals/N100 */
-
     color: #7a869a;
-
-    /* Inside auto layout */
   }
 
   .description-text {
-    /* Primary Text */
-
     width: 100%;
     height: 76px;
-
-    /* Body / 3 */
-
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
-
-    /* or 160% */
-
-    /* Neutrals/N600 */
-
     color: #344563;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     flex-grow: 0;
   }
 
   .language-tags {
-    /* Tags */
-
-    /* Auto layout */
-
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -521,125 +348,70 @@
     list-style-type: none;
     width: 214px;
     height: auto;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 2;
     flex-grow: 0;
   }
 
   .html-lan {
-    /* Tag */
-
-    /* Auto layout */
-
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 4px 12px;
     width: 57px;
     height: 24px;
-
-    /* Primary/B50 */
-
     background: #ebebff;
     border-radius: 8px;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     flex-grow: 0;
   }
 
   li.html-lan {
-    /* HTML */
-
     width: 33px;
     height: 16px;
-
-    /* Button / Small */
-
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
     line-height: 16px;
-
-    /* identical to box height, or 133% */
-
     letter-spacing: 0.03em;
-
-    /* Primary/B400 */
-
     color: #6070ff;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     flex-grow: 0;
   }
 
   .css {
-    /* Tag */
-
-    /* Auto layout */
-
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 4px 12px;
     width: 49px;
     height: 24px;
-
-    /* Primary/B50 */
-
     background: #ebebff;
     border-radius: 8px;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 1;
     flex-grow: 0;
   }
 
   li.css {
-    /* CSS */
-
     width: 25px;
     height: 16px;
-
-    /* Button / Small */
-
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
     line-height: 16px;
-
-    /* identical to box height, or 133% */
-
     letter-spacing: 0.03em;
-
-    /* Primary/B400 */
-
     color: #6070ff;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     flex-grow: 0;
   }
 
   .javascript {
-    /* Tag */
-
-    /* Auto layout */
-
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -651,9 +423,6 @@
 
     background: #ebebff;
     border-radius: 8px;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 2;
     flex-grow: 0;
@@ -664,25 +433,13 @@
 
     width: 68px;
     height: 16px;
-
-    /* Button / Small */
-
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
     line-height: 16px;
-
-    /* identical to box height, or 133% */
-
     letter-spacing: 0.03em;
-
-    /* Primary/B400 */
-
     color: #6070ff;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -693,9 +450,6 @@
 
     width: 295px;
     height: 72px;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 3;
     flex-grow: 0;
@@ -716,9 +470,6 @@
     /* Primary/B500 */
 
     color: #396df2;
-
-    /* Primary/B400 */
-
     border: 1px solid #6070ff;
     border-radius: 8px;
     margin-left: 5px;
@@ -736,17 +487,11 @@
   }
 
   .about-myself {
-    /* About My Self */
-
-    /* Auto layout */
-
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-left: 10px;
     padding-right: 10px;
-
-    /* padding: 114px 24px; */
     gap: 24px;
     width: 100%;
     height: auto;
@@ -754,10 +499,6 @@
   }
 
   .top {
-    /* TOP */
-
-    /* Auto layout */
-
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -766,17 +507,12 @@
     margin-right: 50px;
     width: 100%;
     height: auto;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     flex-grow: 0;
   }
 
   .top h2 {
-    /* Primary Text */
-
     width: 327px;
     height: 35px;
     margin-bottom: 10px;
@@ -797,37 +533,21 @@
     /* Neutrals/N800 */
 
     color: #172b4d;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     flex-grow: 0;
   }
 
   .top p {
-    /* Primary Text */
-
     width: 100%;
     height: auto;
     margin-bottom: 5px;
-
-    /* Body / 2 */
-
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-
-    /* or 150% */
-
-    /* Neutrals/N600 */
-
     color: #344563;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -836,16 +556,11 @@
   .socials {
     /* Social Media */
 
-    /* Auto layout */
-
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding-left: 5px;
     width: 200px;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 2;
     flex-grow: 0;
@@ -854,9 +569,6 @@
   .support-text {
     padding: 0;
     width: 117px;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -878,9 +590,6 @@
     /* Primary/B300 */
 
     color: #7f8cff;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -888,8 +597,6 @@
 
   .social-med {
     /* Frame 1 */
-
-    /* Auto layout */
 
     display: flex;
     flex-direction: row;
@@ -902,8 +609,6 @@
 
     /* height: 40px; */
 
-    /* Inside auto layout */
-
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -914,23 +619,14 @@
 
     box-sizing: border-box;
     background-color: #fff;
-
-    /* Auto layout */
-
     align-items: center;
     padding: 12px;
     gap: 10px;
     margin-top: 10px;
     width: 162px;
     height: 48px;
-
-    /* Primary/B400 */
-
     border: 1px solid #6070ff;
     border-radius: 8px;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 3;
     flex-grow: 0;
@@ -940,8 +636,6 @@
     /* Normal Button/Secondary/Enabled */
 
     box-sizing: border-box;
-
-    /* Auto layout */
     color: #6070ff;
 
     /* Button /Normal */
@@ -959,9 +653,6 @@
     height: 48px;
     border: 1px solid #6070ff;
     border-radius: 8px;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 3;
 
@@ -1005,9 +696,6 @@
     /* Primary/B500 */
 
     color: #396df2;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -1016,17 +704,12 @@
   .skill-list {
     /* Skill List */
 
-    /* Auto layout */
-
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0;
     width: 100%;
     height: auto;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -1035,16 +718,11 @@
   .languages {
     /* Frame 12 */
 
-    /* Auto layout */
-
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     width: 327px;
     height: auto;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -1060,17 +738,12 @@
   .dropdown {
     /* Frame 12 */
 
-    /* Auto layout */
-
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0;
     width: 100%;
     height: auto;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -1145,9 +818,6 @@
     margin-bottom: 10px;
     width: 400px;
     height: 66.72px;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -1375,15 +1045,9 @@
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
-
-    /* identical to box height, or 133% */
-
     display: flex;
     align-items: center;
     text-align: center;
-
-    /* Neutrals/N600 */
-
     color: #344563;
   }
 
@@ -1404,30 +1068,18 @@
   }
 
   .headline {
-    /* Headline */
-
-    /* Auto layout */
     max-width: 100%;
-
-    /* padding-left: 200px;
-    padding-right: 200px; */
     position: relative;
     flex-shrink: 0;
     flex-direction: column;
     align-items: flex-start;
-
-    /* margin-top: 20px; */
     margin-bottom: 100px;
     padding: 114px 24px;
     gap: 12px;
-
-    /* left: calc(50% - 375px / 2); */
     top: 92px;
     background-image: url(assets/images/header-bg-desktop/Header\ bg@2x.png);
     background-repeat: no-repeat;
     background-size: 100%;
-
-    /* background-position-x: 100%; */
   }
 
   .headline h1 {
@@ -1438,9 +1090,6 @@
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
-
-    /* or 130% */
-
     display: flex;
     align-items: center;
     margin-bottom: auto;
@@ -1448,8 +1097,6 @@
   }
 
   .headline p {
-    /* Primary Text */
-
     max-width: 920px;
     padding-left: 10%;
     margin-bottom: auto;
@@ -1458,68 +1105,38 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-
-    /* height: 75px; */
-
     color: #344563;
   }
 
   .social-media {
-    /* Social Media */
-
-    /* Auto layout */
-
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding-left: 10%;
-
-    /* gap: 16px; */
     width: 117px;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 2;
     flex-grow: 0;
   }
 
   .social-media p {
-    /* LET’S CONNECT */
-
     width: 117px;
     height: 24px;
     padding-left: 10%;
-
-    /* Body / 2 - Bolder */
-
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-
-    /* identical to box height, or 150% */
-
-    /* Primary/B300 */
-
     color: #7f8cff;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     flex-grow: 0;
   }
 
   .social-media-icons {
-    /* width: 170.17px; */
     height: 20px;
     padding-left: 10%;
-
-    /* Inside auto layout */
-
-    /* flex: none; */
     flex-wrap: wrap;
     order: 3;
     flex-grow: 0;
@@ -1542,53 +1159,21 @@
   }
 
   .works {
-    /* Card Works */
-
     box-sizing: border-box;
-
-    /* Auto layout */
-
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
     padding: 16px;
     gap: 12px;
     width: 100%;
-
-    /* height: auto; */
-
-    /* Neutrals/N0 */
-
     background: #fff;
-
-    /* Neutrals/N40 */
-
     border: 1px solid #dfe1e6;
     border-radius: 16px;
-
-    /* Inside auto layout */
-
-    /* flex: none;
-    order: 0;
-    flex-grow: 0; */
-
     clear: both;
   }
 
   .snapshot {
-    /* Snapshoot Portfolio */
-
     width: 45%;
     height: auto;
     float: left;
     border-radius: 8px;
-
-    /* Inside auto layout */
-
-    /*
-    flex: none;
-    order: 0;
-    flex-grow: 0; */
   }
 
   .snapshot > img {
@@ -1597,66 +1182,35 @@
   }
 
   .card-info {
-    /* Left Block */
-
-    /* Auto layout */
-
-    /* display: flex;
-    flex-direction: column;
-    align-items: flex-start; */
     width: 45%;
     float: left;
     padding-left: 50px;
-
-    /* height: 288px; */
   }
 
   .primary-text {
-    /* Primary Text */
-
-    /* Auto layout */
-
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0;
     width: 100%;
-
-    /* Inside auto layout */
   }
 
   .primary-text h2 {
-    /* Project Title */
-
     width: 100%;
     margin-top: auto;
     margin-bottom: auto;
-
-    /* height: 36px; */
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
     line-height: 44px;
-
-    /* or 138% */
-
-    /* Neutrals/N800 */
-
     color: #172b4d;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     flex-grow: 0;
   }
 
   .work-info {
-    /* Frame 2 */
-
-    /* Auto layout */
-
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -1664,9 +1218,6 @@
     gap: 12px;
     width: 100%;
     height: 32px;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -1675,14 +1226,9 @@
   .client {
     /* Client */
 
-    /* Auto layout */
-
     padding: 8px 0;
     width: 55px;
     height: 42px;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -1693,9 +1239,6 @@
 
     width: 100%;
     height: 16px;
-
-    /* Caption / 1 - Bolder */
-
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -1710,33 +1253,15 @@
     width: 8px;
     height: 8px;
     border-radius: 4px;
-
-    /* Neutrals/N50 */
-
     background: #c1c7d0;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 1;
     flex-grow: 0;
   }
 
   .role {
-    /* Role */
-
-    /* Auto layout */
-
-    /* display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 8px 0px; */
-
     width: 88px;
     height: 42px;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 2;
     flex-grow: 0;
@@ -1755,11 +1280,6 @@
     font-weight: 600;
     font-size: 13px;
     line-height: 16px;
-
-    /* identical to box height, or 123% */
-
-    /* Neutrals/N100 */
-
     color: #7a869a;
   }
 
@@ -1773,9 +1293,6 @@
     /* Neutrals/N50 */
 
     background: #c1c7d0;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 3;
     flex-grow: 0;
@@ -1784,18 +1301,8 @@
   .year {
     /* Year Label */
 
-    /* Auto layout */
-
-    /* display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 8px 0px; */
-
     width: 29px;
     height: 42px;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 4;
     flex-grow: 0;
@@ -1806,56 +1313,29 @@
 
     width: 29px;
     height: 16px;
-
-    /* Caption / 1 - Bolder */
-
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 13px;
     line-height: 16px;
-
-    /* identical to box height, or 123% */
-
-    /* Neutrals/N100 */
-
     color: #7a869a;
-
-    /* Inside auto layout */
   }
 
   .description-text {
-    /* Primary Text */
-
     width: 100%;
     height: 76px;
-
-    /* Body / 3 */
-
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
-
-    /* or 160% */
-
-    /* Neutrals/N600 */
-
     color: #344563;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     flex-grow: 0;
   }
 
   .language-tags {
-    /* Tags */
-
-    /* Auto layout */
-
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -1865,72 +1345,41 @@
     list-style-type: none;
     width: 214px;
     height: auto;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 2;
     flex-grow: 0;
   }
 
   .html-lan {
-    /* Tag */
-
-    /* Auto layout */
-
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 4px 12px;
     width: 57px;
     height: 24px;
-
-    /* Primary/B50 */
-
     background: #ebebff;
     border-radius: 8px;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     flex-grow: 0;
   }
 
   li.html-lan {
-    /* HTML */
-
     width: 33px;
     height: 16px;
-
-    /* Button / Small */
-
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
     line-height: 16px;
-
-    /* identical to box height, or 133% */
-
     letter-spacing: 0.03em;
-
-    /* Primary/B400 */
-
     color: #6070ff;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     flex-grow: 0;
   }
 
   .css {
-    /* Tag */
-
-    /* Auto layout */
-
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -1942,48 +1391,27 @@
 
     background: #ebebff;
     border-radius: 8px;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 1;
     flex-grow: 0;
   }
 
   li.css {
-    /* CSS */
-
     width: 25px;
     height: 16px;
-
-    /* Button / Small */
-
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
     line-height: 16px;
-
-    /* identical to box height, or 133% */
-
     letter-spacing: 0.03em;
-
-    /* Primary/B400 */
-
     color: #6070ff;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     flex-grow: 0;
   }
 
   .javascript {
-    /* Tag */
-
-    /* Auto layout */
-
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -1995,9 +1423,6 @@
 
     background: #ebebff;
     border-radius: 8px;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 2;
     flex-grow: 0;
@@ -2008,25 +1433,13 @@
 
     width: 68px;
     height: 16px;
-
-    /* Button / Small */
-
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
     line-height: 16px;
-
-    /* identical to box height, or 133% */
-
     letter-spacing: 0.03em;
-
-    /* Primary/B400 */
-
     color: #6070ff;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -2037,9 +1450,6 @@
 
     width: 295px;
     height: 72px;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 3;
     flex-grow: 0;
@@ -2060,9 +1470,6 @@
     /* Primary/B500 */
 
     color: #396df2;
-
-    /* Primary/B400 */
-
     border: 1px solid #6070ff;
     border-radius: 8px;
     margin-left: 5px;
@@ -2093,8 +1500,6 @@
   }
 
   .top h2 {
-    /* Primary Text */
-
     width: 327px;
     height: 35px;
     margin-bottom: 10px;
@@ -2115,37 +1520,21 @@
     /* Neutrals/N800 */
 
     color: #172b4d;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     flex-grow: 0;
   }
 
   .top p {
-    /* Primary Text */
-
     width: 100%;
     height: auto;
     margin-bottom: 5px;
-
-    /* Body / 2 */
-
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-
-    /* or 150% */
-
-    /* Neutrals/N600 */
-
     color: #344563;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -2154,16 +1543,11 @@
   .socials {
     /* Social Media */
 
-    /* Auto layout */
-
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding-left: 5px;
     width: 200px;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 2;
     flex-grow: 0;
@@ -2172,9 +1556,6 @@
   .support-text {
     padding: 0;
     width: 117px;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -2190,15 +1571,7 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-
-    /* identical to box height, or 150% */
-
-    /* Primary/B300 */
-
     color: #7f8cff;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -2206,8 +1579,6 @@
 
   .social-med {
     /* Frame 1 */
-
-    /* Auto layout */
 
     display: flex;
     flex-direction: row;
@@ -2220,50 +1591,30 @@
 
     /* height: 40px; */
 
-    /* Inside auto layout */
-
     flex: none;
     order: 1;
     flex-grow: 0;
   }
 
   .resume-button {
-    /* Normal Button/Secondary/Enabled */
-
     box-sizing: border-box;
     background-color: #fff;
-
-    /* Auto layout */
-
     align-items: center;
     padding: 12px;
     gap: 10px;
     margin-top: 10px;
     width: 162px;
     height: 48px;
-
-    /* Primary/B400 */
-
     border: 1px solid #6070ff;
     border-radius: 8px;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 3;
     flex-grow: 0;
   }
 
   .resume {
-    /* Normal Button/Secondary/Enabled */
-
     box-sizing: border-box;
-
-    /* Auto layout */
     color: #6070ff;
-
-    /* Button /Normal */
-
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -2277,14 +1628,8 @@
     height: 48px;
     border: 1px solid #6070ff;
     border-radius: 8px;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 3;
-
-    /* Button /Normal */
-
     text-align: center;
   }
 
@@ -2304,28 +1649,16 @@
 
     width: auto;
     height: 24px;
-
-    /* Button /Normal */
-
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
     line-height: 24px;
-
-    /* identical to box height, or 141% */
-
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.03em;
-
-    /* Primary/B500 */
-
     color: #396df2;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -2338,9 +1671,6 @@
     width: 45%;
     float: left;
     height: auto;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -2349,16 +1679,11 @@
   .languages {
     /* Frame 12 */
 
-    /* Auto layout */
-
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     width: 327px;
     height: auto;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -2374,17 +1699,12 @@
   .dropdown {
     /* Frame 12 */
 
-    /* Auto layout */
-
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0;
     width: 100%;
     height: auto;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -2468,9 +1788,6 @@
     margin-bottom: 10px;
     width: 100px;
     height: auto;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -2608,6 +1925,14 @@
     font-weight: 500;
     font-size: 17px;
     line-height: 24px;
+    margin: 10px auto;
+  }
+
+  .submit-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
   }
 
   .submit-btn:hover {
