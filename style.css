@@ -1341,3 +1341,159 @@
     margin-bottom: -10px;
   }
 }
+
+@media only screen and (min-width: 769px) {
+  body {
+    height: 100%;
+    background: #fff;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .header {
+    /* margin-bottom: 150px; */
+    clear: both;
+  }
+  .logo {
+    float: left;
+  }
+  .logo img {
+    padding: 10px 12px;
+    height: 100px;
+    margin-left: 90px;
+  }
+  .navbar {
+    margin-left: 95%;
+  }
+  .headline-container {
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .headline {
+    /* Headline */
+
+    /* Auto layout */
+    max-width: 100%;
+    /* padding-left: 200px;
+    padding-right: 200px; */
+    position: relative;
+    flex-shrink: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    /* margin-top: 20px; */
+    margin-bottom: 100px;
+    padding: 114px 24px;
+    gap: 12px;
+
+    /* left: calc(50% - 375px / 2); */
+    top: 92px;
+    background-image: url(assets/images/header-bg-desktop/Header\ bg@2x.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* background-position-x: 100%; */
+  }
+
+  .headline h1 {
+    max-width: 680px;
+    font-family: "Poppins", sans-serif;
+    padding-left: 10%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+
+    /* or 130% */
+
+    display: flex;
+    align-items: center;
+
+    margin-bottom: auto;
+    color: #172b4d;
+  }
+
+  .headline p {
+    /* Primary Text */
+
+    max-width: 920px;
+    padding-left: 10%;
+    margin-bottom: auto;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* height: 75px; */
+
+    color: #344563;
+  }
+  .social-media {
+    /* Social Media */
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 10%;
+
+    /* gap: 16px; */
+    width: 117px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+  }
+
+  .social-media p {
+    /* LET’S CONNECT */
+
+    width: 117px;
+    height: 24px;
+    padding-left: 10%;
+
+    /* Body / 2 - Bolder */
+
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    /* identical to box height, or 150% */
+
+    /* Primary/B300 */
+
+    color: #7f8cff;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .social-media-icons {
+    /* width: 170.17px; */
+    height: 20px;
+    padding-left: 10%;
+
+    /* Inside auto layout */
+
+    /* flex: none; */
+    flex-wrap: wrap;
+    order: 3;
+    flex-grow: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: inherit;
+    align-items: flex-start;
+  }
+
+  .social-media-icons li {
+    margin-right: 10px;
+  }
+}
