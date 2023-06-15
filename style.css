@@ -114,13 +114,7 @@
   }
 
   .navbar {
-    /* Normal Button/Tertiary/Enabled */
-
-    /* Auto layout */
-
-    /* display: flex;
-    flex-direction: row;
-    align-items: flex-start; */
+    align-items: flex-start;
     padding: 8px;
     position: absolute;
     width: 40px;
@@ -128,6 +122,10 @@
     right: 24px;
     top: calc(50% - 40px / 2);
     border-radius: 8px;
+  }
+
+  .desktop {
+    display: none;
   }
 
   .social-media {
@@ -1357,6 +1355,34 @@
     /* margin-bottom: 150px; */
     clear: both;
   }
+  .navbar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 75%;
+  }
+
+  .mobilenav {
+    display: none;
+  }
+  .navbar > a {
+    /* Body / 3 - Bolder */
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    /* identical to box height, or 133% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    /* Neutrals/N600 */
+
+    color: #344563;
+  }
 
   .logo {
     float: left;
@@ -1366,10 +1392,6 @@
     padding: 10px 12px;
     height: 100px;
     margin-left: 90px;
-  }
-
-  .navbar {
-    margin-left: 95%;
   }
 
   .headline-container {
