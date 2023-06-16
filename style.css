@@ -1151,6 +1151,10 @@
     margin-right: 10px;
   }
 
+  .social-media-icons li:hover {
+    transform: translateX(12px);
+  }
+
   .work-collection {
     display: grid;
     grid-template-columns: auto;
