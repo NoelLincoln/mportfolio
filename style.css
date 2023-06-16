@@ -348,7 +348,9 @@
   }
 
   .html-lan {
-    float: left;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     padding: 4px 12px;
     width: 57px;
     height: 24px;
@@ -375,7 +377,9 @@
   }
 
   .css {
-    float: left;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     padding: 4px 12px;
     width: 49px;
     height: 24px;
@@ -402,7 +406,9 @@
   }
 
   .javascript {
-    float: left;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     padding: 4px 12px;
     width: 92px;
     height: 24px;
