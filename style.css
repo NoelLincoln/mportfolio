@@ -339,12 +339,18 @@
   }
 
   .language-tags {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     margin-top: 5px;
     padding: 0;
     gap: 8px;
     list-style-type: none;
     width: 214px;
     height: auto;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
   }
 
   .html-lan {
