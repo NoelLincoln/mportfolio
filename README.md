@@ -23,7 +23,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Portolio <a name="about-project"></a>
+# 📖 Portfolio <a name="about-project"></a>
 
 **Portfolio** is a project designed with figma to display my professional work.
 
