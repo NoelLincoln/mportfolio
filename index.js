@@ -1,11 +1,11 @@
-$(document).ready(function () {
-  $(".dropdown-btn").click(function () {
-    $(".dropdown-content").toggle("close");
+$(document).ready(() => {
+  $('.dropdown-btn').click(() => {
+    $('.dropdown-content').toggle('close');
   });
-  $("#navbar").click(function () {
-    $(".navbar-content").toggle("show");
-    $("#navbar-icon").hide();
+  $('#navbar').click(() => {
+    $('.navbar-content').toggle('show');
+    $('#navbar-icon').hide();
 
-    $("#icon-close").show();
+    $('#icon-close').show();
   });
 });
