@@ -264,8 +264,116 @@
     display: none;
     border-radius: 16px;
     border: 1px solid #dfe1e6;
+    /* background-color: #fff; */
+    /* height: 40px; */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 40px;
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 90%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  .project-action-buttons {
+    display: flex;
+    padding: 4px 9px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    color: #6070ff;
+    width: 95%;
+  }
+
+  .view-project-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 8px;
+    padding: 5px;
+    border: 1px solid #6070ff;
+    width: 136px;
+    height: 48px;
+  }
+
+  .view-project-btn > p {
+    color: #396df2;
+    text-align: center;
+    font-size: 15px;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 20px;
+  }
+
+  .modal-content {
+    margin-left: 2%;
+    margin-right: 2%;
     background-color: #fff;
-    height: 40px;
+    border-radius: 8px;
+    padding: 8px;
+  }
+
+  .primary-text-project {
+    display: flex;
+    flex-direction: column;
+  }
+  .title-project {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    color: var(--neutrals-n-800, #172b4d);
+    font-size: 32px;
+    font-family: Poppins;
+    font-weight: 700;
+    line-height: 44px;
+  }
+
+  .title-project > h5 {
+    margin-bottom: 16px;
+  }
+
+  .description-project {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* gap: 12px; */
+  }
+  .description-project > p {
+    color: var(--neutrals-n-600, #344563);
+    font-size: 15px;
+    font-family: Poppins;
+    line-height: 24px;
+  }
+
+  .language-tags-project {
+    display: flex;
+    gap: 10px;
+    padding-left: 0;
+  }
+
+  .divider {
+    display: flex;
+    width: 90;
+    padding: 0px 4px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .project-close {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    padding: 8px;
+    align-items: flex-start;
+  }
+
+  .project-image {
+    width: 100%;
   }
 
   .snapshot {
