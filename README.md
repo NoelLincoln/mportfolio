@@ -23,7 +23,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Portolio <a name="about-project"></a>
+# 📖 Portfolio <a name="about-project"></a>
 
 **Portfolio** is a project designed with figma to display my professional work.
 
@@ -97,7 +97,7 @@ To run tests:
 
 - GitHub: [@githubhandle](https://github.com/NoelLincoln)
 - Twitter: [@twitterhandle](https://twitter.com/NoelLincoln)
-- LinkedIn: [LinkedIn](https:www.linkedin.com/in/noel-bryant/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/noel-bryant/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

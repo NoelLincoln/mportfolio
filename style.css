@@ -5,6 +5,7 @@
   body {
     height: 100%;
     background: #fff;
+    overflow-x: hidden;
   }
 
   a {
@@ -15,18 +16,21 @@
     position: absolute;
     left: 5px;
     right: 5px;
-    top: 44px;
+    top: 20px;
     bottom: 5px;
     max-width: 100%;
-    height: 92px;
-    display: flex;
+
+    /* height: 92px; */
+
+    /* display: flex;
     align-items: flex-start;
-    flex-shrink: 0;
+    flex-shrink: 0; */
   }
 
   .logo img {
     padding: 10px 12px;
     position: absolute;
+    margin-top: 20px;
     height: 70px;
     left: 12px;
   }
@@ -39,6 +43,18 @@
     flex: none;
     order: 0;
     flex-grow: 0;
+  }
+
+  .icon-close {
+    align-items: flex-start;
+    padding-right: 59px;
+    position: absolute;
+    margin-top: -10px;
+    width: 40px;
+
+    /* height: 40px; */
+    right: 24px;
+    border-radius: 8px;
   }
 
   .menu-button {
@@ -60,13 +76,14 @@
     flex-shrink: 0;
     flex-direction: column;
     align-items: flex-start;
-    margin-top: 20px;
+    margin-top: 165px;
     margin-bottom: 100px;
-    padding: 114px 24px;
+    padding: 2px 24px;
     gap: 12px;
 
     /* left: calc(50% - 375px / 2); */
-    top: 92px;
+
+    /* top: 92px; */
     background-image: url(assets/images/header-bg/header-shapes-mobile.svg);
     background-size: 100%;
     background-position-x: 100%;
@@ -112,11 +129,71 @@
     align-items: flex-start;
     padding: 8px;
     position: absolute;
+    margin-top: 20px;
     width: 40px;
-    height: 40px;
+
+    /* height: 40px; */
     right: 24px;
-    top: calc(50% - 40px / 2);
     border-radius: 8px;
+  }
+
+  .navbar-content {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    list-style-type: none;
+    background-color: #6070ff;
+    width: 100%;
+    height: 100vh;
+    padding-top: 50px;
+    padding-left: 30px;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    opacity: 0.8;
+    margin-top: 0;
+    gap: 8px;
+  }
+
+  .social-media-icons li {
+    margin-right: 10px;
+  }
+
+  .navbar-content > li {
+    color: #fff;
+    font-size: 32px;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    line-height: 44px;
+  }
+
+  .dropdown-content li {
+    /* Neutrals/N10 */
+
+    background: #f7f7f9;
+    border-radius: 8px;
+    display: flex;
+    gap: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 400px;
+    height: 66.72px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .navbar-content > li:first-child {
+    margin-top: 25px;
+  }
+
+  .navbar-content > li > a:visited {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .hide {
+    display: none;
   }
 
   .desktop {
@@ -146,10 +223,6 @@
     flex: none;
     order: 0;
     flex-grow: 0;
-  }
-
-  .social-media-icons li {
-    margin-right: 10px;
   }
 
   .social-media-icons {
@@ -466,7 +539,6 @@
     letter-spacing: 0.03em;
     gap: 10px;
     background-color: white;
-    transition: background-color 1s;
 
     /* Primary/B500 */
 
@@ -673,38 +745,7 @@
     border-radius: 8px;
   }
 
-  .resume a {
-    /* Get my resume */
-
-    width: auto;
-    height: 24px;
-
-    /* Button /Normal */
-
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 24px;
-
-    /* identical to box height, or 141% */
-
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.03em;
-
-    /* Primary/B500 */
-
-    color: #396df2;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-  }
-
   .skill-list {
-    /* Skill List */
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -808,22 +849,6 @@
     transform: translateY(0);
   }
 
-  .dropdown-content li {
-    /* Neutrals/N10 */
-
-    background: #f7f7f9;
-    border-radius: 8px;
-    display: flex;
-    gap: 12px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    width: 400px;
-    height: 66.72px;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-  }
-
   input[type="checkbox"]:checked + label > .arrow {
     transform: rotate(45deg);
   }
@@ -839,19 +864,6 @@
 
   .dropdown-content li:hover {
     background: #1d1f24;
-  }
-
-  .dropdown-content li a {
-    display: block;
-    padding: 0.7em 0.5em;
-    margin-top: 15px;
-    text-decoration: none;
-    color: #253858;
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
   }
 
   .dropdown-content li img {
@@ -1028,19 +1040,40 @@
   }
 
   .navbar {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-left: 75%;
-  }
-
-  .mobilenav {
     display: none;
   }
 
-  .navbar > a {
-    /* Body / 3 - Bolder */
+  .navbar-content {
+    display: flex;
+    list-style-type: none;
+    margin-left: 75%;
+    position: absolute;
+    gap: 20px;
+    font-size: 15px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    line-height: 20px;
+  }
 
+  .resume a {
+    width: auto;
+    height: 24px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #396df2;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .navbar > a {
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -1050,6 +1083,28 @@
     align-items: center;
     text-align: center;
     color: #344563;
+  }
+
+  .dropdown-content li a {
+    display: block;
+    padding: 0.7em 0.5em;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #253858;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .navbar-content > li > a:visited {
+    text-decoration: none;
+    color: #344563;
+  }
+
+  .mobilenav {
+    display: none;
   }
 
   .logo {
@@ -1467,7 +1522,6 @@
     letter-spacing: 0.03em;
     gap: 10px;
     background-color: white;
-    transition: background-color 1s;
 
     /* Primary/B500 */
 
@@ -1646,26 +1700,6 @@
     border-radius: 8px;
   }
 
-  .resume a {
-    /* Get my resume */
-
-    width: auto;
-    height: 24px;
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #396df2;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-  }
-
   .skill-list {
     margin-top: 50px;
     margin-bottom: 60px;
@@ -1810,19 +1844,6 @@
 
   .dropdown-content li:hover {
     background: #1d1f24;
-  }
-
-  .dropdown-content li a {
-    display: block;
-    padding: 0.7em 0.5em;
-    margin-top: 15px;
-    text-decoration: none;
-    color: #253858;
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
   }
 
   .dropdown-content li img {
