@@ -45,9 +45,9 @@
 
   .icon-close {
     align-items: flex-start;
-    padding-right: 40px;
+    padding-right: 59px;
     position: absolute;
-    margin-top: -45px;
+    margin-top: -10px;
     width: 40px;
     /* height: 40px; */
     right: 24px;
@@ -159,9 +159,13 @@
   .navbar-content > li {
     color: #fff;
     font-size: 32px;
-    font-family: Poppins;
+    font-family: Poppins, sans-serif;
     font-weight: 600;
     line-height: 44px;
+  }
+
+  .navbar-content > li:first-child {
+    margin-top: 25px;
   }
 
   .navbar-content > li > a:visited {
