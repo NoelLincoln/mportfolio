@@ -1,42 +1,42 @@
-const MobileNav = document.querySelector(".mobile-nav");
-const NavbarContent = document.querySelector(".navbar-content");
-const MobileNavImg = document.querySelector(".mobile-nav-img");
+const MobileNav = document.querySelector('.mobile-nav');
+const NavbarContent = document.querySelector('.navbar-content');
+const MobileNavImg = document.querySelector('.mobile-nav-img');
 
-const IconClose = document.querySelector(".icon-close");
+const IconClose = document.querySelector('.icon-close');
 
-const NavbarOptions = document.querySelectorAll(".navbar-options");
+const NavbarOptions = document.querySelectorAll('.navbar-options');
 
-const HeadlineWrapper = document.querySelector(".headline");
-const logo = document.querySelector(".logo");
+const HeadlineWrapper = document.querySelector('.headline');
+const logo = document.querySelector('.logo');
 
 function blurbackground() {
-  HeadlineWrapper.style.filter = "blur(6px)";
-  logo.style.filter = "blur(6px)";
+  HeadlineWrapper.style.filter = 'blur(6px)';
+  logo.style.filter = 'blur(6px)';
 }
 function undoblurbackground() {
-  HeadlineWrapper.style.filter = "none";
-  logo.style.filter = "none";
+  HeadlineWrapper.style.filter = 'none';
+  logo.style.filter = 'none';
 }
 
-MobileNav.addEventListener("click", () => {
-  NavbarContent.classList.toggle("hide");
-  MobileNavImg.classList.toggle("hide");
-  IconClose.classList.toggle("hide");
+MobileNav.addEventListener('click', () => {
+  NavbarContent.classList.toggle('hide');
+  MobileNavImg.classList.toggle('hide');
+  IconClose.classList.toggle('hide');
   blurbackground();
 });
 
-IconClose.addEventListener("click", () => {
-  NavbarContent.classList.toggle("hide");
-  MobileNavImg.classList.toggle("hide");
-  IconClose.classList.toggle("hide");
+IconClose.addEventListener('click', () => {
+  NavbarContent.classList.toggle('hide');
+  MobileNavImg.classList.toggle('hide');
+  IconClose.classList.toggle('hide');
   undoblurbackground();
 });
 
-NavbarOptions.forEach(function (navbaroption) {
-  navbaroption.addEventListener("click", () => {
-    NavbarContent.classList.toggle("hide");
-    MobileNavImg.classList.toggle("hide");
-    IconClose.classList.toggle("hide");
+NavbarOptions.forEach((navbaroption) => {
+  navbaroption.addEventListener('click', () => {
+    NavbarContent.classList.toggle('hide');
+    MobileNavImg.classList.toggle('hide');
+    IconClose.classList.toggle('hide');
     undoblurbackground();
   });
 });
