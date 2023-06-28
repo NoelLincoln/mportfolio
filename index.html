@@ -5,35 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 
     <link href="https://fonts.cdnfonts.com/css/poppins" rel="stylesheet" />
-    <script src="index.js"></script>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="headline-container">
-      <header class="header">
+    <div id="headline-container">
+      <header class="header" id>
         <div class="logo">
-          <a href="">
-            <img src="assets/images/logo.png" alt="my awesome logo"
-              />
+          <a href>
+            <img src="assets/images/logo.png" alt="my awesome logo" />
           </a>
         </div>
-        <!-- <div class="toolbar"> -->
 
-        <nav class="navbar">
-          <a href="#index.html"> <img
+        <nav class="navbar " id="navbar">
+          <div class="mobile-nav">
+            <img
               src="assets/images/mobile-menu.svg"
               alt="menu icon"
-              class="mobilenav"/></a>
-          <a href="#projects" class="desktop">Portfolio</a>
-          <a href="#about" class="desktop">About</a>
-          <a href="#contact" class="desktop">Contact</a>
+              class="mobile-nav-img" />
+          </div>
 
-
-          <!-- </div> -->
         </nav>
+        <ul class="navbar-content hide">
+          <li> <a href="#projects" class="navbar-options">Portfolio</a></li>
+          <li> <a href="#about" class="navbar-options">About</a> </li>
+          <li> <a href="#contact" class="navbar-options">Contact</a></li>
+          <div class="icon-close hide">
+            <img
+              src="assets/images/icon-close.png"
+              alt="menu icon close"
+              class="icon-close-img" />
+          </div>
+        </ul>
+
       </header>
 
       <section class="headline">
@@ -50,13 +57,11 @@
         <ul class="social-media-icons">
           <li class="twitter">
             <a href="https://twitter.com/Noel_Lincoln">
-              <img src="assets/images/social-media-icons/twitter.svg"
-                /></a>
+              <img src="assets/images/social-media-icons/twitter.svg" /></a>
           </li>
           <li class="linkedin">
             <a href="https://www.linkedin.com/in/noel-bryant/">
-              <img src="assets/images/social-media-icons/linkedin.svg"
-                /></a>
+              <img src="assets/images/social-media-icons/linkedin.svg" /></a>
           </li>
 
           <li class="medium">
@@ -81,7 +86,7 @@
       <section class="work-collection">
         <div class="works">
           <div class="snapshot">
-            <img src="assets/images/snapshot.svg" alt="snapshot"/>
+            <img src="assets/images/snapshot.svg" alt="snapshot" />
           </div>
           <div class="card-info">
             <div class="primary-text">
@@ -113,7 +118,6 @@
               <li class="javascript">Javascript</li>
 
             </ul>
-
 
             <div class="action">
               <button class="action-button">See project</button>
@@ -155,18 +159,17 @@
               </ul>
             </div>
 
-
             <div class="action">
               <button class="action-button">See project</button>
             </div>
           </div>
           <div class="snapshot">
-            <img src="assets/images/multipoststories.png" alt="snapshot"/>
+            <img src="assets/images/multipoststories.png" alt="snapshot" />
           </div>
         </div>
         <div class="works">
           <div class="snapshot">
-            <img src="assets/images/snapshot2.png" alt="snapshot"/>
+            <img src="assets/images/snapshot2.png" alt="snapshot" />
           </div>
           <div class="card-info">
             <div class="primary-text">
@@ -201,7 +204,6 @@
               </ul>
             </div>
 
-
             <div class="action">
               <button class="action-button">See project</button>
             </div>
@@ -242,13 +244,12 @@
               </ul>
             </div>
 
-
             <div class="action">
               <button class="action-button">See project</button>
             </div>
           </div>
           <div class="snapshot">
-            <img src="assets/images/multipoststories2.png" alt="snapshot"/>
+            <img src="assets/images/multipoststories2.png" alt="snapshot" />
           </div>
         </div>
       </section>
@@ -261,7 +262,6 @@
             you like what you see and have a project you need coded, don’t
             hesitate to contact me.</p>
 
-
           <div class="socials">
             <div class="support-text">
               <p>Let's connect</p>
@@ -269,13 +269,11 @@
             <ul class="social-med">
               <li class="twitter">
                 <a href="https://twitter.com/Noel_Lincoln">
-                  <img src="assets/images/social-media-icons/twitter.svg"
-                    /></a>
+                  <img src="assets/images/social-media-icons/twitter.svg" /></a>
               </li>
               <li class="linkedin">
                 <a href="https://www.linkedin.com/in/noel-bryant/">
-                  <img src="assets/images/social-media-icons/linkedin.svg"
-                    /></a>
+                  <img src="assets/images/social-media-icons/linkedin.svg" /></a>
               </li>
 
               <li class="medium">
@@ -298,12 +296,10 @@
             </ul>
           </div>
 
-
           <button class="resume"
             onclick="window.location.href='https://drive.google.com/file/d/1iD2S5PJAGP1TI_19C9GD2Zo4FpeSRO1N/view?usp=sharing';">
             Get my resume
           </button>
-
 
         </div>
         <div class="skill-list">
@@ -316,11 +312,11 @@
 
             <ul class="dropdown-content" role="menu">
               <li><img src="assets/images/javascript.png" alt="javascript
-                  image"/><a href="#">Javascript</a></li>
+                  image" /><a href="#">Javascript</a></li>
               <li><img src="assets/images/html.png" alt="html
-                  image"/><a href="#">HTML</a></li>
+                  image" /><a href="#">HTML</a></li>
               <li><img src="assets/images/javascript.png" alt="javascript
-                  image"/><a href="#">CSS</a></li>
+                  image" /><a href="#">CSS</a></li>
             </ul>
           </ul>
           <ul class="dropdown">
@@ -353,8 +349,6 @@
           </ul>
         </div>
 
-
-
       </section>
       <section class="contact-form" id="contact">
         <h2>Contact Me</h2>
@@ -373,15 +367,10 @@
           <input type="submit" value="Get in touch" class="submit-btn">
         </form>
 
-
-
       </section>
 
-
-
     </div>
-
-
+    <script src="index.js"></script>
 
   </body>
 </html>
