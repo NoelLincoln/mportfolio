@@ -8,6 +8,8 @@ const NavbarOptions = document.querySelectorAll('.navbar-options');
 
 const HeadlineWrapper = document.querySelector('.headline');
 const logo = document.querySelector('.logo');
+const SeeProject = document.querySelector('#see-project');
+const ProjectModal = document.querySelector('.project-modal');
 
 function blurbackground() {
   HeadlineWrapper.style.filter = 'blur(6px)';
@@ -39,4 +41,13 @@ NavbarOptions.forEach((navbaroption) => {
     IconClose.classList.toggle('hide');
     undoblurbackground();
   });
+});
+// seeProject.forEach((seeproject) => {
+//   seeproject.addEventListener('click', () => {
+//     ProjectModal.style.display = 'block';
+//   });
+// });
+
+SeeProject.addEventListener('click', () => {
+  ProjectModal.style.display = 'block';
 });

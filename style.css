@@ -1,6 +1,6 @@
 /* media query when screen is larger than 768px. If [device width] is greater than or equal to the given pixels, run code */
 @media only screen and (max-width: 768px) {
-  @import url("https://fonts.cdnfonts.com/css/poppins");
+  @import url('https://fonts.cdnfonts.com/css/poppins');
 
   body {
     height: 100%;
@@ -91,7 +91,7 @@
 
   .headline h1 {
     width: 100%;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -108,7 +108,7 @@
   .headline p {
     width: 100%;
     margin-bottom: 100px;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -214,7 +214,7 @@
   .social-media p {
     width: 117px;
     height: 24px;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -260,6 +260,14 @@
     flex-grow: 0;
   }
 
+  .project-modal {
+    display: none;
+    border-radius: 16px;
+    border: 1px solid #dfe1e6;
+    background-color: #fff;
+    height: 40px;
+  }
+
   .snapshot {
     width: 100%;
     height: auto;
@@ -295,7 +303,7 @@
     width: 100%;
     margin-top: auto;
     margin-bottom: auto;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -331,7 +339,7 @@
   .client p {
     width: 100%;
     height: 16px;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 13px;
@@ -360,7 +368,7 @@
   .role p {
     width: 88px;
     height: 16px;
-    font-family: "Poppins", sans-serif, sans-pro;
+    font-family: 'Poppins', sans-serif, sans-pro;
     font-style: normal;
     font-weight: 600;
     font-size: 13px;
@@ -389,7 +397,7 @@
   .year p {
     width: 29px;
     height: 16px;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 13px;
@@ -400,7 +408,7 @@
   .description-text {
     width: 100%;
     height: 76px;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -443,7 +451,7 @@
   li.html-lan {
     width: 33px;
     height: 16px;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -472,7 +480,7 @@
   li.css {
     width: 25px;
     height: 16px;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -506,7 +514,7 @@
 
     width: 68px;
     height: 16px;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -531,13 +539,14 @@
   .action-button {
     width: 126px;
     height: 48px;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
     line-height: 24px;
     letter-spacing: 0.03em;
     gap: 10px;
+    order: 3;
     background-color: white;
 
     /* Primary/B500 */
@@ -592,7 +601,7 @@
 
     /* Header / 2 */
 
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -615,7 +624,7 @@
     width: 100%;
     height: auto;
     margin-bottom: 5px;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -652,7 +661,7 @@
 
     /* Body / 2 - Bolder */
 
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -713,7 +722,7 @@
 
     /* Button /Normal */
 
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
@@ -770,7 +779,7 @@
     flex-grow: 0;
 
     /* Languages */
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -844,21 +853,21 @@
     display: none;
   }
 
-  input[type="checkbox"]:checked ~ .dropdown-content {
+  input[type='checkbox']:checked ~ .dropdown-content {
     visibility: visible;
     transform: translateY(0);
   }
 
-  input[type="checkbox"]:checked + label > .arrow {
+  input[type='checkbox']:checked + label > .arrow {
     transform: rotate(45deg);
   }
 
-  input[type="checkbox"] {
+  input[type='checkbox'] {
     opacity: 0;
     position: absolute;
   }
 
-  input[type="checkbox"]:focus + label {
+  input[type='checkbox']:focus + label {
     box-shadow: 0 0 20px rgb(83, 83, 83);
   }
 
@@ -889,7 +898,7 @@
   }
 
   .contact-form h2 {
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -899,7 +908,7 @@
   }
 
   .contact-form p {
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -915,24 +924,24 @@
     gap: 10px;
   }
 
-  input[type="text"] {
+  input[type='text'] {
     height: 48px;
     padding-left: 15px;
     border: none;
     border-radius: 8px;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
     line-height: 20px;
   }
 
-  input[type="email"] {
+  input[type='email'] {
     height: 48px;
     padding-left: 15px;
     border: none;
     border-radius: 8px;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
@@ -940,7 +949,7 @@
   }
 
   .contact-form textarea {
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -954,7 +963,7 @@
     -webkit-border-radius: 15px;
   }
 
-  input[type="submit"] {
+  input[type='submit'] {
     background: #fff;
     border: none;
     border-radius: 8px;
@@ -962,7 +971,7 @@
     width: 142px;
     height: 48px;
     color: #6070ff;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
@@ -976,7 +985,7 @@
     border: 1px solid white;
   }
 
-  input[type="submit"]:active {
+  input[type='submit']:active {
     background-color: #2230d2;
     color: #fff;
   }
@@ -1058,7 +1067,7 @@
   .resume a {
     width: auto;
     height: 24px;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
@@ -1074,7 +1083,7 @@
   }
 
   .navbar > a {
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -1091,7 +1100,7 @@
     margin-top: 15px;
     text-decoration: none;
     color: #253858;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -1140,7 +1149,7 @@
 
   .headline h1 {
     max-width: 680px;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     padding-left: 10%;
     font-style: normal;
     font-weight: 700;
@@ -1156,7 +1165,7 @@
     max-width: 920px;
     padding-left: 10%;
     margin-bottom: auto;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -1179,7 +1188,7 @@
     width: 117px;
     height: 24px;
     padding-left: 10%;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -1255,7 +1264,7 @@
     width: 100%;
     margin-top: auto;
     margin-bottom: auto;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -1295,7 +1304,7 @@
 
     width: 100%;
     height: 16px;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 13px;
@@ -1331,7 +1340,7 @@
 
     /* Caption / 1 - Bolder */
 
-    font-family: "Poppins", sans-serif, sans-pro;
+    font-family: 'Poppins', sans-serif, sans-pro;
     font-style: normal;
     font-weight: 600;
     font-size: 13px;
@@ -1369,7 +1378,7 @@
 
     width: 29px;
     height: 16px;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 13px;
@@ -1380,7 +1389,7 @@
   .description-text {
     width: 100%;
     height: 76px;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -1423,7 +1432,7 @@
   li.html-lan {
     width: 33px;
     height: 16px;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -1455,7 +1464,7 @@
   li.css {
     width: 25px;
     height: 16px;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -1489,7 +1498,7 @@
 
     width: 68px;
     height: 16px;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -1514,7 +1523,7 @@
   .action-button {
     width: 126px;
     height: 48px;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
@@ -1562,7 +1571,7 @@
 
     /* Header / 2 */
 
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -1585,7 +1594,7 @@
     width: 100%;
     height: auto;
     margin-bottom: 5px;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -1622,7 +1631,7 @@
 
     /* Body / 2 - Bolder */
 
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -1671,7 +1680,7 @@
   .resume {
     box-sizing: border-box;
     color: #6070ff;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
@@ -1725,7 +1734,7 @@
     flex-grow: 0;
 
     /* Languages */
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -1807,7 +1816,7 @@
     display: none;
   }
 
-  input[type="checkbox"]:checked ~ .dropdown-content {
+  input[type='checkbox']:checked ~ .dropdown-content {
     visibility: visible;
     transform: translateY(0);
   }
@@ -1829,16 +1838,16 @@
     flex-grow: 0;
   }
 
-  input[type="checkbox"]:checked + label > .arrow {
+  input[type='checkbox']:checked + label > .arrow {
     transform: rotate(45deg);
   }
 
-  input[type="checkbox"] {
+  input[type='checkbox'] {
     opacity: 0;
     position: absolute;
   }
 
-  input[type="checkbox"]:focus + label {
+  input[type='checkbox']:focus + label {
     box-shadow: 0 0 20px rgb(83, 83, 83);
   }
 
@@ -1869,7 +1878,7 @@
   }
 
   .contact-form h2 {
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     text-align: center;
     font-style: normal;
     font-weight: 700;
@@ -1880,7 +1889,7 @@
   }
 
   .contact-form p {
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     text-align: center;
     font-style: normal;
     font-weight: 400;
@@ -1896,24 +1905,24 @@
     gap: 10px;
   }
 
-  input[type="text"] {
+  input[type='text'] {
     height: 48px;
     padding-left: 15px;
     border: none;
     border-radius: 8px;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
     line-height: 20px;
   }
 
-  input[type="email"] {
+  input[type='email'] {
     height: 48px;
     padding-left: 15px;
     border: none;
     border-radius: 8px;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
@@ -1921,7 +1930,7 @@
   }
 
   .contact-form textarea {
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -1935,7 +1944,7 @@
     -webkit-border-radius: 15px;
   }
 
-  input[type="submit"] {
+  input[type='submit'] {
     background: #fff;
     border: none;
     border-radius: 8px;
@@ -1943,7 +1952,7 @@
     width: 142px;
     height: 48px;
     color: #6070ff;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
@@ -1965,7 +1974,7 @@
     border: 1px solid white;
   }
 
-  input[type="submit"]:active {
+  input[type='submit']:active {
     background-color: #2230d2;
     color: #fff;
   }
