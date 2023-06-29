@@ -377,12 +377,14 @@
   }
 
   .snapshot {
+    position: relative;
     width: 100%;
-    height: auto;
     border-radius: 8px;
     flex: none;
     order: 0;
     flex-grow: 0;
+    background-repeat: no-repeat;
+    background-size: contain;
   }
 
   .snapshot > img {
