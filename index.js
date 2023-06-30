@@ -18,8 +18,6 @@ fetch('projects.json')
   .then((response) => response.json())
   .then((data) => {
     data.forEach((project, index) => {
-      console.log(data);
-
       const WorksCollection = document.getElementById('workcollection');
       const Works = document.createElement('div');
       Works.classList.add('works');
@@ -157,14 +155,9 @@ fetch('projects.json')
       });
       SeeProject.forEach((i, index) => {
         i.addEventListener('click', () => {
-          console.log(i);
-          console.log(i.id);
-          console.log(data[index].name);
-
           const ProjectTitle = document.getElementById('title-project');
           ProjectTitle.innerHTML = `<h2>${data[index].name}</h2>`;
-          const ProjectDescription =
-            document.getElementById('descriptionproject');
+          const ProjectDescription = document.getElementById('descriptionproject');
           ProjectDescription.innerHTML = `<p>${data[index].description}</p>`;
           const ClientProject = document.getElementById('clientproject');
           ClientProject.innerHTML = `<p>${data[index].client}</p>`;
