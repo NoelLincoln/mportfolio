@@ -11,7 +11,7 @@ const projects = document.querySelector('.work-collection');
 const about = document.querySelector('.about-myself');
 const contact = document.querySelector('.contact-form');
 
-// const SnapshotImage = document.querySelector('#snapshot');
+const SnapshotImage = document.querySelector('#snapshot');
 // const ProjectName = document.querySelector('#projectname');
 
 fetch('projects.json')
