@@ -17,9 +17,8 @@ const contact = document.querySelector('.contact-form');
 fetch('projects.json')
   .then((response) => response.json())
   .then((data) => {
-    data.forEach((project) => {
+    data.forEach((project, index) => {
       console.log(data);
-      console.log(project.name);
 
       const WorksCollection = document.getElementById('workcollection');
       const Works = document.createElement('div');
@@ -30,7 +29,7 @@ fetch('projects.json')
       Snapshot.classList.add('snapshot');
       Snapshot.setAttribute('id', 'snapshot');
       const SnapshotImage = document.createElement('img');
-      SnapshotImage.src = 'assets/images/snapshot.svg';
+      SnapshotImage.src = project.featuredImage;
       Snapshot.appendChild(SnapshotImage);
 
       const CardInfo = document.createElement('div');
@@ -43,7 +42,7 @@ fetch('projects.json')
       const PrimaryText = document.createElement('div');
       PrimaryText.classList.add('primary-text');
       const Title = document.createElement('h2');
-      const TitleText = document.createTextNode('Tonic');
+      const TitleText = document.createTextNode(project.name);
       Title.appendChild(TitleText);
 
       PrimaryText.appendChild(Title);
@@ -52,7 +51,8 @@ fetch('projects.json')
       const Client = document.createElement('div');
       Client.classList.add('client');
       const ClientText = document.createElement('p');
-      const ClientTextNode = document.createTextNode('Canopy');
+      const ClientTextNode = document.createTextNode(project.client);
+
       ClientText.appendChild(ClientTextNode);
       Client.appendChild(ClientText);
 
@@ -63,7 +63,7 @@ fetch('projects.json')
       Role.classList.add('role');
       const RoleText = document.createElement('p');
       Role.appendChild(RoleText);
-      const RoleTextNode = document.createTextNode('Backend Dev');
+      const RoleTextNode = document.createTextNode(project.role);
       RoleText.appendChild(RoleTextNode);
 
       const CounterOne = document.createElement('div');
@@ -75,7 +75,7 @@ fetch('projects.json')
       Year.classList.add('year');
       const YearText = document.createElement('p');
       Year.appendChild(YearText);
-      const YearTextNode = document.createTextNode('2023');
+      const YearTextNode = document.createTextNode(project.year);
       YearText.appendChild(YearTextNode);
 
       RoleText.appendChild(RoleTextNode);
@@ -92,9 +92,7 @@ fetch('projects.json')
 
       const DescriptionText = document.createElement('div');
       DescriptionText.classList.add('description-text');
-      const DescriptionTextNode = document.createTextNode(
-        'A daily selection of privately personalized reads; no    accounts or sign-ups required.'
-      );
+      const DescriptionTextNode = document.createTextNode(project.description);
       DescriptionText.appendChild(DescriptionTextNode);
       CardInfo.appendChild(DescriptionText);
 
@@ -128,24 +126,46 @@ fetch('projects.json')
 
       LanguageTags.appendChild(ListLanguagesJs);
 
-      CardInfo.appendChild(LanguageTags);
-
       const ActionButton = document.createElement('button');
       ActionButton.classList.add('action-button');
-      ActionButton.setAttribute('id', 'see-project');
+      ActionButton.setAttribute('id', index + 1);
+
       const ActionButtonText = document.createTextNode('See Project');
       ActionButton.appendChild(ActionButtonText);
 
-      CardInfo.appendChild(ActionButton);
+      CardInfo.appendChild(LanguageTags);
+      const ActionButtonParent = document.createElement('div');
+      ActionButtonParent.classList.add('action');
+      ActionButtonParent.appendChild(ActionButton);
+      CardInfo.appendChild(ActionButtonParent);
 
-      const SeeProject = document.querySelector('#see-project');
+      const SeeProject = document.querySelectorAll('.action-button');
       const ProjectModal = document.querySelector('.project-modal');
       const ProjectClose = document.querySelector('.project-close');
-      SeeProject.addEventListener('click', () => {
-        ProjectModal.style.display = 'block';
-      });
+
       ProjectClose.addEventListener('click', () => {
         ProjectModal.style.display = 'none';
+      });
+      SeeProject.forEach((i, index) => {
+        i.addEventListener('click', () => {
+          console.log(i);
+          console.log(i.id);
+          console.log(data[index].name);
+
+          const ProjectTitle = document.getElementById('title-project');
+          ProjectTitle.innerHTML = `<h2>${data[index].name}</h2>`;
+          const ProjectDescription =
+            document.getElementById('descriptionproject');
+          ProjectDescription.innerHTML = `<p>${data[index].description}</p>`;
+          const ClientProject = document.getElementById('clientproject');
+          ClientProject.innerHTML = `<p>${data[index].client}</p>`;
+          const RoleProject = document.getElementById('roleproject');
+          RoleProject.innerHTML = `<p>${data[index].role}</p>`;
+          const YearProject = document.getElementById('yearproject');
+          YearProject.innerHTML = `<p>${data[index].year}</p>`;
+
+          ProjectModal.style.display = 'block';
+        });
       });
     });
   });

@@ -2,22 +2,24 @@
   {
     "id": "1",
     "name": "Tonic",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    "featuredImage": "./assets/images/snapshot.svg",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+    "featuredImage": "assets/images/snapshot.svg",
+    "client": "Canopy",
+    "role": "Backend Dev",
+    "year": "2020",
+
     "technologies": [
       {
-        "id": "1",
         "name": "cloud computing"
       },
       {
-        "id": "2",
         "name": "Artficial intelligence"
       },
       {
-        "id": "3",
         "name": "Machine Learniing"
       }
     ],
+
     "live-version": "https://noellincoln.github.io/",
     "source": "https://github.com/NoelLincoln/mportfolio"
   },
@@ -25,66 +27,66 @@
     "id": "2",
     "name": "Multipost",
     "description": "Hello World",
-    "featured-image": "./assets/images/multipoststories2.png",
+    "featuredImage": "assets/images/multipoststories2.png",
+    "client": "Google",
+    "role": "CTO",
+    "year": "2021",
     "technologies": [
       {
-        "id": "1",
         "name": "Intellij"
       },
       {
-        "id": "2",
         "name": "Vscode"
       },
       {
-        "id": "3",
         "name": "Machine Learniing"
       }
     ],
-    "live-version": "",
-    "source": ""
+    "live-version": "https://noellincoln.github.io/",
+    "source": "https://github.com/NoelLincoln/mportfolio"
   },
   {
     "id": "3",
     "name": "Tonic",
     "description": "Hello World",
-    "featured-image": "./assets/images/snapshot.svg",
+    "featuredImage": "assets/images/snapshot.svg",
+    "client": "Huawei",
+    "role": "Frontend",
+    "year": "2024",
     "technologies": [
       {
-        "id": "1",
         "name": "cloud computing"
       },
       {
-        "id": "2",
         "name": "Artficial intelligence"
       },
       {
-        "id": "3",
         "name": "Machine Learniing"
       }
     ],
-    "live-version": "",
-    "source": ""
+    "liveVersion": "https://noellincoln.github.io/",
+    "source": "https://github.com/NoelLincoln/mportfolio"
   },
   {
     "id": "4",
-    "name": "Tonic",
+    "name": "NewYork",
     "description": "Hello World",
-    "featured-image": "./assets/images/snapshot.svg",
+    "featuredImage": "assets/images/snapshot.svg",
+    "client": "Net",
+    "role": "CTO",
+    "year": "2026",
     "technologies": [
       {
-        "id": "1",
         "name": "cloud computing"
       },
       {
-        "id": "2",
         "name": "Artficial intelligence"
       },
       {
-        "id": "3",
         "name": "Machine Learniing"
       }
     ],
-    "live-version": "",
-    "source": ""
+    "liveVersion": "https://noellincoln.github.io/",
+    "source": "https://github.com/NoelLincoln/mportfolio"
   }
 ]
