@@ -12,7 +12,7 @@ const about = document.querySelector('.about-myself');
 const contact = document.querySelector('.contact-form');
 
 const SnapshotImage = document.querySelector('#snapshot');
-// const ProjectName = document.querySelector('#projectname');
+const ProjectName = document.querySelector('#projectname');
 
 fetch('projects.json')
   .then((response) => response.json())
