@@ -11,8 +11,8 @@ const projects = document.querySelector('.work-collection');
 const about = document.querySelector('.about-myself');
 const contact = document.querySelector('.contact-form');
 
-const SnapshotImage = document.querySelector('#snapshot');
-const ProjectName = document.querySelector('#projectname');
+// const SnapshotImage = document.querySelector('#snapshot');
+// const ProjectName = document.querySelector('#projectname');
 
 fetch('projects.json')
   .then((response) => response.json())
@@ -130,7 +130,16 @@ fetch('projects.json')
       ActionButton.classList.add('action-button');
       ActionButton.setAttribute('id', index + 1);
 
+      // const btnIndex = document.querySelectorAll('.action-button');
+
+      // btnIndex.forEach((i) => {
+      //   i.addEventListener('click', () => {
+      //     console.log(i);
+      //   });
+      // });
+
       const ActionButtonText = document.createTextNode('See Project');
+      // ActionButton.innerHTML = index + 1;
       ActionButton.appendChild(ActionButtonText);
 
       CardInfo.appendChild(LanguageTags);
@@ -163,6 +172,18 @@ fetch('projects.json')
           RoleProject.innerHTML = `<p>${data[index].role}</p>`;
           const YearProject = document.getElementById('yearproject');
           YearProject.innerHTML = `<p>${data[index].year}</p>`;
+
+          const projecturl = project.liveVersion;
+          const ProjectActionBtn = document.getElementById('viewprojectbtn');
+          ProjectActionBtn.addEventListener('click', () => {
+            window.location.replace(projecturl, '_blank');
+          });
+
+          const sourceCodeurl = project.source;
+          const SourceCodeActionBtn = document.getElementById('viewsourcebtn');
+          SourceCodeActionBtn.addEventListener('click', () => {
+            window.location.replace(sourceCodeurl, '_blank');
+          });
 
           ProjectModal.style.display = 'block';
         });
