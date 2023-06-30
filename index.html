@@ -9,6 +9,7 @@
       src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 
     <link href="https://fonts.cdnfonts.com/css/poppins" rel="stylesheet" />
+    <!-- <script src="modal.js"></script> -->
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -83,178 +84,64 @@
           </li>
         </ul>
       </section>
-      <section class="work-collection">
-        <div class="works">
-          <div class="snapshot">
-            <img src="assets/images/snapshot.svg" alt="snapshot" />
-          </div>
-          <div class="card-info">
-            <div class="primary-text">
-              <h2>Tonic</h2>
+      <section class="work-collection " id="workcollection">
+      </section>
+      <div class="project-modal" id="projectModal">
+        <div class="modal-content" id="modal-content">
+
+          <div class="primary-text-project">
+            <div class="title-project">
+              <h5 id="title-project"></h5>
+              <img class="project-close " id="close-popup"
+                src="assets/images/project-close-icon.png" />
+            </div>
+            <div class="role-year">
               <div class="work-info">
-                <div class="client">
-                  <p>CANOPY</p>
+                <div class="client" id="clientproject">
+                  <p></p>
                 </div>
                 <div class="counter"></div>
-                <div class="role">
-                  <p>Backend Dev</p>
+                <div class="role" id="roleproject">
+                  <p></p>
                 </div>
                 <div class="counterone"></div>
 
-                <div class="year">
-                  <p>2015</p>
+                <div class="year" id="yearproject">
+                  <p></p>
                 </div>
 
               </div>
             </div>
-            <div class="description-text">
-              <p>A daily selection of privately personalized reads; no
-                accounts or
-                sign-ups required.</p>
-            </div>
-            <ul class="language-tags">
+          </div>
+          <img class="project-image" src="assets/images/snapshot.svg" />
+          <div class="description-project">
+            <p id="descriptionproject"></p>
+            <ul class="language-tags-project">
               <li class="html-lan">HTML</li>
               <li class="css">CSS</li>
               <li class="javascript">Javascript</li>
-
             </ul>
-
-            <div class="action">
-              <button class="action-button">See project</button>
+            <div class="divider">
+              <img src="assets/images/divider.png" />
             </div>
-          </div>
-        </div>
-        <div class="works" id="projects">
-
-          <div class="card-info">
-            <div class="primary-text">
-              <h2>Multi-post Stories</h2>
-              <div class="work-info">
-                <div class="client">
-                  <p>CANOPY</p>
-                </div>
-                <div class="counter"></div>
-                <div class="role">
-                  <p>Backend Dev</p>
-                </div>
-                <div class="counterone"></div>
-
-                <div class="year">
-                  <p>2015</p>
-                </div>
-
+            <div class="project-action-buttons">
+              <div class="view-project-btn" id="viewprojectbtn">
+                <p>See live</p>
+                <img src="assets/images/see-live.png" />
+              </div>
+              <div class="view-project-btn" id="viewsourcebtn">
+                <p>See source</p>
+                <img src="assets/images/source-code.png" />
               </div>
             </div>
-            <div class="description-text">
-              <p>A daily selection of privately personalized reads; no
-                accounts or
-                sign-ups required.</p>
-            </div>
-            <div>
-              <ul class="language-tags">
-                <li class="html-lan">HTML</li>
-                <li class="css">CSS</li>
-                <li class="javascript">Javascript</li>
 
-              </ul>
-            </div>
+          </div>
 
-            <div class="action">
-              <button class="action-button">See project</button>
-            </div>
-          </div>
-          <div class="snapshot">
-            <img src="assets/images/multipoststories.png" alt="snapshot" />
-          </div>
         </div>
-        <div class="works">
-          <div class="snapshot">
-            <img src="assets/images/snapshot2.png" alt="snapshot" />
-          </div>
-          <div class="card-info">
-            <div class="primary-text">
-              <h2>Tonic</h2>
-              <div class="work-info">
-                <div class="client">
-                  <p>CANOPY</p>
-                </div>
-                <div class="counter"></div>
-                <div class="role">
-                  <p>Backend Dev</p>
-                </div>
-                <div class="counterone"></div>
 
-                <div class="year">
-                  <p>2015</p>
-                </div>
+      </div>
 
-              </div>
-            </div>
-            <div class="description-text">
-              <p>A daily selection of privately personalized reads; no
-                accounts or
-                sign-ups required.</p>
-            </div>
-            <div>
-              <ul class="language-tags">
-                <li class="html-lan">HTML</li>
-                <li class="css">CSS</li>
-                <li class="javascript">Javascript</li>
-
-              </ul>
-            </div>
-
-            <div class="action">
-              <button class="action-button">See project</button>
-            </div>
-          </div>
-        </div>
-        <div class="works">
-
-          <div class="card-info">
-            <div class="primary-text">
-              <h2>Tonic</h2>
-              <div class="work-info">
-                <div class="client">
-                  <p>CANOPY</p>
-                </div>
-                <div class="counter"></div>
-                <div class="role">
-                  <p>Backend Dev</p>
-                </div>
-                <div class="counterone"></div>
-
-                <div class="year">
-                  <p>2015</p>
-                </div>
-
-              </div>
-            </div>
-            <div class="description-text">
-              <p>A daily selection of privately personalized reads; no
-                accounts or
-                sign-ups required.</p>
-            </div>
-            <div>
-              <ul class="language-tags">
-                <li class="html-lan">HTML</li>
-                <li class="css">CSS</li>
-                <li class="javascript">Javascript</li>
-
-              </ul>
-            </div>
-
-            <div class="action">
-              <button class="action-button">See project</button>
-            </div>
-          </div>
-          <div class="snapshot">
-            <img src="assets/images/multipoststories2.png" alt="snapshot" />
-          </div>
-        </div>
-      </section>
-
-      <section class="about-myself" id="about">
+      <section class="about-myself " id="about">
         <div class="top">
           <h2>About Myself</h2>
           <p>Hello I’m a software developer! I can help you build a product ,
@@ -350,7 +237,7 @@
         </div>
 
       </section>
-      <section class="contact-form" id="contact">
+      <section class="contact-form blur" id="contact">
         <h2>Contact Me</h2>
         <p>If you have an application you are interested in developing, a
           feature that you need built or a project that needs coding.
