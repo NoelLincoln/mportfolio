@@ -19,12 +19,6 @@
     top: 20px;
     bottom: 5px;
     max-width: 100%;
-
-    /* height: 92px; */
-
-    /* display: flex;
-    align-items: flex-start;
-    flex-shrink: 0; */
   }
 
   .logo img {
@@ -36,8 +30,6 @@
   }
 
   .menu-icons {
-    /* Icons/Icon - Menu */
-
     max-width: 100%;
     height: 24px;
     flex: none;
@@ -52,7 +44,7 @@
     margin-top: -10px;
     width: 40px;
 
-    /* height: 40px; */
+   
     right: 24px;
     border-radius: 8px;
   }
