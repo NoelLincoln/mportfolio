@@ -21,7 +21,7 @@ function saveFormData() {
   const formData = {};
 
   // Loop through each input field in the form
-  for (let i = 0; i < form.elements.length; i++) {
+  for (let i = 0; i < form.elements.length; i = +1) {
     const element = form.elements[i];
     if (element.type !== 'submit') {
       formData[element.name] = element.value;
@@ -41,7 +41,7 @@ function loadFormData() {
     const formData = JSON.parse(storedData);
 
     // Loop through each input field in the form
-    for (let i = 0; i < form.elements.length; i++) {
+    for (let i = 0; i < form.elements.length; i = +1) {
       const element = form.elements[i];
       if (element.type !== 'submit' && formData.hasOwnProperty(element.name)) {
         element.value = formData[element.name];
