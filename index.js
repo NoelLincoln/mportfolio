@@ -155,8 +155,7 @@ fetch('projects.json')
 
           const ProjectTitle = document.getElementById('title-project');
           ProjectTitle.innerHTML = `<h2>${data[index].name}</h2>`;
-          const ProjectDescription =
-            document.getElementById('descriptionproject');
+          const ProjectDescription = document.getElementById('descriptionproject');
           ProjectDescription.innerHTML = `<p>${data[index].description}</p>`;
           const ClientProject = document.getElementById('clientproject');
           ClientProject.innerHTML = `<p>${data[index].client}</p>`;
