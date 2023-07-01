@@ -243,21 +243,28 @@
           feature that you need built or a project that needs coding.
           I’d love to help with it!</p>
         <form action="https://formspree.io/f/xoqzgvow" method="post"
+          onsubmit="return validateEmail()"
+          id="contactform"
           enctype="multipart/form-data">
           <input type="text" placeholder="Lorem ipsum"
             maxlength="30"
             required>
-          <input type="email" name="email" placeholder="loremispum@gmail.com"
+          <input type="email" name="email" id="email"
+            placeholder="loremispum@gmail.com"
             required>
           <textarea rows="7" name="message"
             placeholder="Write your message here..." maxlength="500"></textarea>
-          <input type="submit" value="Get in touch" class="submit-btn">
+          <input type="submit" value="Get in touch" class="submit-btn"
+            id="submitform">
+          <p id="error" style="color: red;"></p>
+
         </form>
 
       </section>
 
     </div>
     <script src="index.js"></script>
+    <script src="formvalidation.js"></script>
 
   </body>
 </html>

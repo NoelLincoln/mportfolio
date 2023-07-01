@@ -78,7 +78,6 @@ fetch('projects.json')
       const YearTextNode = document.createTextNode(project.year);
       YearText.appendChild(YearTextNode);
 
-      RoleText.appendChild(RoleTextNode);
       WorkInfo.appendChild(Client);
       WorkInfo.appendChild(Counter);
       WorkInfo.appendChild(Role);
@@ -117,8 +116,10 @@ fetch('projects.json')
       list.forEach((language, index) => {
         if (index === 0) {
           language.classList.add('html');
-        } else if (index === 2) {
+        } else if (index === 1) {
           language.classList.add('css');
+        } else if (index === 2) {
+          language.classList.add('javasript');
         }
       });
       LanguageTags.appendChild(ListLanguages);
@@ -214,4 +215,21 @@ NavbarOptions.forEach((navbaroption) => {
     IconClose.classList.toggle('hide');
     undoblurbackground();
   });
+});
+
+function validateEmail() {
+  const emailInput = document.getElementById('email').value;
+  const lowerCaseEmail = emailInput.toLowerCase();
+
+  if (emailInput !== lowerCaseEmail) {
+    document.getElementById('error').innerHTML = 'Email must be in lowercase!';
+    return false;
+  }
+  document.getElementById('error').innerHTML = '';
+  return true;
+}
+
+const submitform = document.getElementById('submitform');
+submitform.addEventListener('click', () => {
+  validateEmail();
 });

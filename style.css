@@ -19,12 +19,6 @@
     top: 20px;
     bottom: 5px;
     max-width: 100%;
-
-    /* height: 92px; */
-
-    /* display: flex;
-    align-items: flex-start;
-    flex-shrink: 0; */
   }
 
   .logo img {
@@ -36,8 +30,6 @@
   }
 
   .menu-icons {
-    /* Icons/Icon - Menu */
-
     max-width: 100%;
     height: 24px;
     flex: none;
@@ -51,8 +43,6 @@
     position: absolute;
     margin-top: -10px;
     width: 40px;
-
-    /* height: 40px; */
     right: 24px;
     border-radius: 8px;
   }
@@ -264,7 +254,6 @@
     display: none;
     border-radius: 16px;
     border: 1px solid #dfe1e6;
-
     position: fixed;
     z-index: 1;
     padding-top: 40px;
@@ -303,7 +292,7 @@
     color: #396df2;
     text-align: center;
     font-size: 15px;
-    font-family: Poppins;
+    font-family: Poppins, sans-serif;
     font-weight: 500;
     line-height: 20px;
   }
@@ -321,6 +310,7 @@
     display: flex;
     flex-direction: column;
   }
+
   .title-project {
     display: flex;
     align-items: center;
@@ -328,25 +318,26 @@
     gap: 12px;
     color: var(--neutrals-n-800, #172b4d);
     font-size: 32px;
-    font-family: Poppins;
+    font-family: Poppins, sans-serif;
     font-weight: 700;
     line-height: 44px;
+    margin-bottom: 0;
   }
 
   .title-project > h5 {
-    margin-bottom: 16px;
+    margin: 0;
   }
 
   .description-project {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    /* gap: 12px; */
   }
+
   .description-project > p {
     color: var(--neutrals-n-600, #344563);
     font-size: 15px;
-    font-family: Poppins;
+    font-family: Poppins, sans-serif;
     line-height: 24px;
   }
 
@@ -359,7 +350,7 @@
   .divider {
     display: flex;
     width: 90;
-    padding: 0px 4px;
+    padding: 0 4px;
     justify-content: center;
     align-items: center;
   }
@@ -468,7 +459,7 @@
   }
 
   .role {
-    width: 88px;
+    /* width: 88px; */
     height: 42px;
     flex: none;
     order: 2;
@@ -1343,6 +1334,7 @@
     border-radius: 16px;
     clear: both;
   }
+
   .project-modal {
     display: none;
     border-radius: 16px;
@@ -1386,7 +1378,7 @@
     color: #396df2;
     text-align: center;
     font-size: 15px;
-    font-family: Poppins;
+    font-family: Poppins, sans-serif;
     font-weight: 500;
     line-height: 20px;
   }
@@ -1403,6 +1395,7 @@
     display: flex;
     flex-direction: column;
   }
+
   .title-project {
     display: flex;
     align-items: center;
@@ -1410,7 +1403,7 @@
     gap: 12px;
     color: var(--neutrals-n-800, #172b4d);
     font-size: 32px;
-    font-family: Poppins;
+    font-family: Poppins, sans-serif;
     font-weight: 700;
     line-height: 44px;
   }
@@ -1423,12 +1416,12 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    /* gap: 12px; */
   }
+
   .description-project > p {
     color: var(--neutrals-n-600, #344563);
     font-size: 15px;
-    font-family: Poppins;
+    font-family: Poppins, sans-serif;
     line-height: 24px;
   }
 
@@ -1441,7 +1434,7 @@
   .divider {
     display: flex;
     width: 90;
-    padding: 0px 4px;
+    padding: 0 4px;
     justify-content: center;
     align-items: center;
   }
