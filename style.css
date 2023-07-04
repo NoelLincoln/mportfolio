@@ -2115,6 +2115,11 @@
     color: #ebebff;
   }
 
+  #error {
+    color: rgb(184, 57, 57);
+    font-family: 'cursive', sans-serif;
+  }
+
   .contact-form form {
     display: flex;
     flex-direction: column;
