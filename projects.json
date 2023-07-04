@@ -1,0 +1,92 @@
+[
+  {
+    "id": "1",
+    "name": "Tonic",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+    "featuredImage": "assets/images/snapshot.svg",
+    "client": "Canopy",
+    "role": "Backend Dev",
+    "year": "2020",
+
+    "technologies": [
+      {
+        "name": "cloud computing"
+      },
+      {
+        "name": "Artficial intelligence"
+      },
+      {
+        "name": "Machine Learniing"
+      }
+    ],
+
+    "live-version": "https://noellincoln.github.io/",
+    "source": "https://github.com/NoelLincoln/mportfolio"
+  },
+  {
+    "id": "2",
+    "name": "Multipost",
+    "description": "Hello World",
+    "featuredImage": "assets/images/multipoststories2.png",
+    "client": "Google",
+    "role": "CTO",
+    "year": "2021",
+    "technologies": [
+      {
+        "name": "Intellij"
+      },
+      {
+        "name": "Vscode"
+      },
+      {
+        "name": "Machine Learniing"
+      }
+    ],
+    "live-version": "https://noellincoln.github.io/",
+    "source": "https://github.com/NoelLincoln/mportfolio"
+  },
+  {
+    "id": "3",
+    "name": "Tonic",
+    "description": "Hello World",
+    "featuredImage": "assets/images/snapshot.svg",
+    "client": "Huawei",
+    "role": "Frontend",
+    "year": "2024",
+    "technologies": [
+      {
+        "name": "cloud computing"
+      },
+      {
+        "name": "Artficial intelligence"
+      },
+      {
+        "name": "Machine Learniing"
+      }
+    ],
+    "liveVersion": "https://noellincoln.github.io/",
+    "source": "https://github.com/NoelLincoln/mportfolio"
+  },
+  {
+    "id": "4",
+    "name": "NewYork",
+    "description": "Hello World",
+    "featuredImage": "assets/images/snapshot.svg",
+    "client": "Net",
+    "role": "CTO",
+    "year": "2026",
+    "technologies": [
+      {
+        "name": "cloud computing"
+      },
+      {
+        "name": "Artficial intelligence"
+      },
+      {
+        "name": "Machine Learniing"
+      }
+    ],
+    "liveVersion": "https://noellincoln.github.io/",
+    "source": "https://github.com/NoelLincoln/mportfolio"
+  }
+]
